@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<opml version="1.0">
+<?xml-stylesheet type="text/xsl" href="opml_2_html.xsl"?>
+  <head>
+    <title>Liferea Feed List Export</title>
+  </head>
+  <body>
+    <outline title="Example Feeds" text="Example Feeds" description="Example Feeds" type="folder">
+      <outline title="News" text="News" description="News" type="folder">
+        <outline title="BBC" text="BBC" description="BBC" type="rss" xmlUrl="http://feeds.bbci.co.uk/news/rss.xml?edition=int" htmlUrl="https://www.bbc.co.uk/news/"/>
+        <outline title="My_News" text="My_News" description="My_News" type="folder">
+          <outline title="Science News" text="Science News" description="Science News" type="rss" xmlUrl="https://www.sciencenews.org/feed" htmlUrl="https://www.sciencenews.org"/>
+          <outline title="Slashdot" text="Slashdot" description="Slashdot" type="rss" xmlUrl="http://rss.slashdot.org/Slashdot/slashdot" htmlUrl="https://slashdot.org/"/>
+          <outline title="Ars Technica" text="Ars Technica" description="Ars Technica" type="rss" xmlUrl="http://feeds.arstechnica.com/arstechnica/index" htmlUrl="https://arstechnica.com"/>
+          <outline title="The Alex Jones Show - Infowars.com" text="The Alex Jones Show - Infowars.com" description="The Alex Jones Show - Infowars.com" type="rss" xmlUrl="http://rss.infowars.com/" htmlUrl="http://www.infowars.com"/>
+          <outline title="Populist Press 2021 &#xA9;" text="Populist Press 2021 &#xA9;" description="Populist Press 2021 &#xA9;" type="rss" xmlUrl="https://populist.press/feed/" htmlUrl="https://populist.press"/>
+          <outline title="Alternet.org" text="Alternet.org" description="Alternet.org" type="rss" xmlUrl="https://www.alternet.org/feeds/feed.rss" htmlUrl="https://www.alternet.org/"/>
+          <outline title="US News | The Epoch Times" text="US News | The Epoch Times" description="US News | The Epoch Times" type="rss" xmlUrl="https://www.theepochtimes.com/c-us/feed" htmlUrl="https://www.theepochtimes.com"/>
+          <outline title="Revolver" text="Revolver" description="Revolver" type="rss" xmlUrl="https://www.revolver.news/feed/" htmlUrl="https://www.revolver.news"/>
+          <outline title="The Last American Vagabond" text="The Last American Vagabond" description="The Last American Vagabond" type="rss" xmlUrl="https://www.thelastamericanvagabond.com/feed/podcast/" htmlUrl="https://www.thelastamericanvagabond.com"/>
+          <outline title="Epoch Times, China - news, business, politics, human rights | The Epoch Times" text="Epoch Times, China - news, business, politics, human rights | The Epoch Times" description="Epoch Times, China - news, business, politics, human rights | The Epoch Times" type="rss" xmlUrl="https://www.theepochtimes.com/c-china/feed" htmlUrl="https://www.theepochtimes.com"/>
+          <outline title="World | The Epoch Times" text="World | The Epoch Times" description="World | The Epoch Times" type="rss" xmlUrl="https://www.theepochtimes.com/c-world/feed" htmlUrl="https://www.theepochtimes.com"/>
+          <outline title="Infowars: There's a War on for Your Mind!" text="Infowars: There's a War on for Your Mind!" description="Infowars: There's a War on for Your Mind!" type="rss" xmlUrl="https://www.infowars.com/rss.xml" htmlUrl="https://www.infowars.com"/>
+          <outline title="MintPress News" text="MintPress News" description="MintPress News" type="rss" xmlUrl="https://www.mintpressnews.com/feed/" htmlUrl="https://www.mintpressnews.com"/>
+          <outline title="Politics &amp; Current Events Category" text="Politics &amp; Current Events Category" description="Politics &amp; Current Events Category" type="rss" xmlUrl="https://www.brighteon.com/api-v3/categories/87960295-2ca4-414d-a836-e150d6e3dc1e/rss/rss.xml" htmlUrl="https://www.brighteon.com/categories/politics &amp; current events"/>
+          <outline title="RT World News" text="RT World News" description="RT World News" type="rss" xmlUrl="https://www.rt.com/rss/news/" htmlUrl="https://www.rt.com/news/"/>
+          <outline title="The Federalist" text="The Federalist" description="The Federalist" type="rss" xmlUrl="https://thefederalist.com/feed/" htmlUrl="https://thefederalist.com"/>
+          <outline title="The Gateway Pundit" text="The Gateway Pundit" description="The Gateway Pundit" type="rss" xmlUrl="https://www.thegatewaypundit.com/feed/" htmlUrl="https://www.thegatewaypundit.com"/>
+        </outline>
+      </outline>
+      <outline title="Open Source" text="Open Source" description="Open Source" type="folder">
+        <outline title="Liferea Blog" text="Liferea Blog" description="Liferea Blog" type="atom" xmlUrl="http://feeds.feedburner.com/LifereaBlog" htmlUrl="http://feeds.feedburner.com/LifereaBlog"/>
+        <outline title="Planet GNOME" text="Planet GNOME" description="Planet GNOME" type="atom" xmlUrl="http://planet.gnome.org/atom.xml" htmlUrl="https://planet.gnome.org/"/>
+        <outline title="Latest topics for ZDNet in Linux" text="Latest topics for ZDNet in Linux" description="Latest topics for ZDNet in Linux" type="rss" xmlUrl="https://www.zdnet.com/topic/linux/rss.xml" htmlUrl="https://www.zdnet.com/"/>
+        <outline title="Latest topics for ZDNet in Hardware" text="Latest topics for ZDNet in Hardware" description="Latest topics for ZDNet in Hardware" type="rss" xmlUrl="https://www.zdnet.com/topic/hardware/rss.xml" htmlUrl="https://www.zdnet.com/"/>
+      </outline>
+      <outline title="Podcasts" text="Podcasts" description="Podcasts" type="folder">
+        <outline title="EscapePod" text="EscapePod" description="EscapePod" type="atom" xmlUrl="https://escapepod.org/feed/atom/" htmlUrl="https://escapepod.org/feed/atom/"/>
+      </outline>
+      <outline title="Music Blogs" text="Music Blogs" description="Music Blogs" type="folder">
+        <outline title="Free Music Archive" text="Free Music Archive" description="Free Music Archive" xmlUrl="https://freemusicarchive.org/recent.atom" htmlUrl=""/>
+        <outline title="Gorilla vs. Bear" text="Gorilla vs. Bear" description="Gorilla vs. Bear" type="rss" xmlUrl="https://www.gorillavsbear.net/category/mp3/feed/" htmlUrl="https://www.gorillavsbear.net"/>
+        <outline title="KEXP" text="KEXP" description="KEXP" type="rss" xmlUrl="https://www.omnycontent.com/d/playlist/bad5d079-8dcb-4630-8770-aa090049131d/32b2ac38-5a48-4300-9fa6-aa40002038b5/4ac1c451-4315-4096-ab9b-aa40002038c4/podcast.rss" htmlUrl="https://www.kexp.org/podcasts/song-of-the-day"/>
+        <outline title="Fluxblog" text="Fluxblog" description="Fluxblog" type="rss" xmlUrl="http://www.fluxblog.org/feed/" htmlUrl="http://www.fluxblog.org"/>
+      </outline>
+      <outline title="Comics" text="Comics" description="Comics" type="folder">
+        <outline title="xkcd" text="xkcd" description="xkcd" type="atom" xmlUrl="https://xkcd.com/atom.xml" htmlUrl="https://xkcd.com/"/>
+      </outline>
+    </outline>
+  </body>
+</opml>

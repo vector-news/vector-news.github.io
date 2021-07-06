@@ -1,0 +1,472 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<!-- PUT ALL OTHER CSS SHEETS HERE -->    
+    
+<head>
+    <title>Tech Watch</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="assets/font/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="assets/font/font.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&family=Forum&family=Mate+SC&display=swap" rel="stylesheet">
+    <link id="pagestylelite" rel="stylesheet" type="text/css" href="assets/css/style_lite.css" media="screen" />
+    <link id="headstylelite" rel="stylesheet" type="text/css" href="assets/css/responsive_lite.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="assets/css/jquery.bxslider.css" media="screen" />
+
+
+<!-- COLOR MODE CHANGER -->
+
+    <!-- PUT YOUR STARTING CSS SHEET HERE -->
+<link id="pagestyle" rel="stylesheet" type="text/css" href="assets/css/style.css">
+<link id="headstyle" rel="stylesheet" type="text/css" href="assets/css/responsive.css" media="screen" />
+
+
+<!-- THIS IS THE FUNCTION -->    
+<script>
+function swapStyleSheet(sheet, headsheet, sheetlite, headsheetlite){
+	document.getElementById('pagestyle').setAttribute('href', sheet);
+    document.getElementById('headstyle').setAttribute('href',headsheet);
+ 	document.getElementById('pagestylelite').setAttribute('href', sheetlite);
+    document.getElementById('headstylelite').setAttribute('href',headsheetlite);   
+}
+</script>
+</head>
+    
+<!-- THESE ARE THE BUTTON LINKS -->    
+<body>
+<h9>Change Color Scheme</h9>
+<button2 onclick="swapStyleSheet('assets/css/style.css','assets/css/responsive.css')">Dark Mode</button2>
+<!-- IF I MAKE MORE STYLES I CAN PUT THEM HERE AS OTHER BUTTONS. <button onclick="swapStyleSheet('blue.css')">Blue Style Sheet</button> -->
+<button onclick="swapStyleSheet('assets/css/style_lite.css','assets/css/responsive_lite.css')">Light Mode</button>
+</body>
+    
+<body>
+    <div class="body_wrapper">
+        <div class="center">
+            <div class="header_area">
+                <div class="logo">
+                    <a href="index.html"><img src="images/logo%20(copy%2010).png" alt="" /></a>
+                </div>
+                <!--   <div class="logo2"><a href="#"><img src="images/Old-Watch.png" alt="" /></a></div> -->
+                <div class="top_menu float">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <!-- <li><a href="#">Subscribe</a></li>
+          <li><a href="#">Login</a></li> -->
+                    </ul>
+                </div>
+
+                <!-- SOCIAL MEDIA ADDITIONS GO HERE ONCE THEY ARE ESTABLISHED -->
+                <!--     <div class="social_plus_search floatright">
+        <div class="social">
+          <ul>
+            <li><a href="#" class="twitter"></a></li>
+            <li><a href="#" class="facebook"></a></li>
+            <li><a href="#" class="feed"></a></li>
+          </ul>
+        </div>
+        <div class="search">
+          <form action="#" method="post" id="search_form">
+            <input type="text" value="Search news" id="s" />
+            <input type="submit" id="searchform" value="search" />
+            <input type="hidden" value="post" name="post_type" />
+          </form>
+        </div>
+      </div>
+    </div> -->
+                <!-- PHP TESTING AREA -->
+                <div class="main_menu_area">
+                    <ul id="nav">
+                        <li><a href="world_watch.html">world watch</a>
+                 <!--           <ul>
+                                <li><a href="#">Single item</a></li>
+                                <li><a href="#">Single item</a></li>
+                                <li><a href="#">Single item</a></li>
+                            </ul> -->
+                        </li>
+                        <li><a href="elite_watch.html">elite watch</a>
+                  <!--       <ul>
+                                <li><a href="#">Single item</a></li>
+                                <li><a href="#">Single item</a></li>
+                                <li><a href="#">Single item</a></li>
+                            </ul> -->
+                        </li>
+                        <li><a href="tech_watch.html">tech watch</a>
+                 <!--   THIS CAN ADD A DROPDOWN LIST OF ARTICLES
+                        HOW CAN I MAKE THESE UPDATE AUTOMATICALLY?
+
+                            <ul>
+                                <li><a href="#">Single item</a></li>
+                                <li><a href="#">Single item</a></li>
+                                <li><a href="#">Single item</a></li>
+                            </ul> -->
+                        </li>
+                        <li><a href="financial_watch.html">financial watch</a>
+               <!--          <ul>
+                                <li><a href="#">Single item</a></li>
+                                <li><a href="#">Single item</a></li>
+                                <li><a href="#">Single item</a></li>
+                            </ul> -->
+                        </li>
+                        <li><a href="covid_watch.html">covid watch</a>
+             <!--            <ul>
+                                <li><a href="#">Single item</a></li>
+                                <li><a href="#">Single item</a></li>
+                                <li><a href="#">Single item</a></li>
+                            </ul> -->
+                        </li>
+                        <li><a href="culture_watch.html">culture watch</a>
+                <!--            <ul>
+                                <li><a href="#">Single item</a></li>
+                                <li><a href="#">Single item</a></li>
+                                <li><a href="#">Single item</a></li>
+                            </ul> -->
+                        </li>
+                        <li><a href="recommended.html">recommended</a>
+                 <!--        <ul>
+                                <li><a href="#">Single item</a></li>
+                                <li><a href="#">Single item</a></li>
+                                <li><a href="#">Single item</a></li>
+                            </ul> -->
+                    </ul>
+                </div>
+                <div class="main_content floatleft">
+                    <!-- USE THIS FOR ALERTS IF NECESSARY
+                    
+<p2>alert! alert! alert! they are shutting down the web!!!</p2>
+-->
+
+                    <h1 class="title">ARCHIVED TECH NEWS</h1>
+
+                    <!-- ADD ALL ARCHIVED ARTICLES HERE RIGHT ON TOP. WHEN THE LIST GETS TOO FULL, DETERMINE HOW TO ADD PAGES LIKE
+                    AN INDEX AT THE BOTTOM.-->
+
+                    <h2a><a href="https://www.infowars.com/posts/woman-details-severe-covid-vaccine-reaction-within-minutes-i-knew-i-was-going-to-pass-out">Clarence Thomas blasts Section 230, wants “common-carrier” rules on Twitter </a></h2a><h2b><a2 href="tech_watch">[tech_watch]</a2></h2b><h4>Source: arsTECHNICA ~ Jon Brodkin</h4>
+<h2a><a href="https://arstechnica.com/tech-policy/2021/04/how-the-supreme-court-saved-the-software-industry-from-api-copyrights/#p3">GOOGLE'S own GREED saves would be API copyright violators... for now </a></h2a><h2b><a2 href="tech_watch">[tech_watch]</a2></h2b><h4>Source: arsTECHNICA ~ Timothy B. Lee</h4>
+<h2a><a href="https://populist.press/pentagon-confirms-leaked-footage-of-ufos-swarming-a-us-navy-destroyer-as-genuine/">Pentagon confirms leaked footage of UFOs swarming a US Navy destroyer as genuine </a></h2a><h2b><a2 href="tech_watch">[tech_watch]</a2></h2b><h4>Source: Populist Press ~ Populist Press</h4>
+
+
+                </div>
+
+                <!-- SWEET SLIDER IF THAT'S WHAT YOU'RE IN TO 
+    <div class="slider_area">
+      <div class="slider">
+        <ul class="bxslider">
+          <li><img src="images/1.jpg" alt="" title="Slider caption text" /></li>
+          <li><img src="images/2.jpg" alt="" title="Slider caption text" /></li>
+          <li><img src="images/3.jpg" alt="" title="Slider caption text" /></li>
+        </ul>
+      </div>
+    </div> -->
+
+                <!--  <div class="content_area">
+                    <div class="main_content floatleft">
+                   <div class="left_coloum floatleft">
+                        <div class="single_left_coloum_wrapper"> -->
+
+                <!--                           <h2 class="title">from around the world</h2>
+                                <a class="more" href="#">more</a>
+                                <div class="single_left_coloum floatleft"> <img src="images/single_featured.png" alt="" />
+                                    <h3>Lorem ipsum dolor sit amet, consectetur</h3>
+                                    <p>Nulla quis lorem neque, mattis venenatis lectus. In interdum ullamcorper dolor eu mattis.</p>
+                                    <a class="readmore" href="#">read more</a>
+                                </div>
+                                <div class="single_left_coloum floatleft"> <img src="images/single_featured.png" alt="" />
+                                    <h3>Lorem ipsum dolor sit amet, consectetur</h3>
+                                    <p>Nulla quis lorem neque, mattis venenatis lectus. In interdum ullamcorper dolor eu mattis.</p>
+                                    <a class="readmore" href="#">read more</a>
+                                </div>
+                                <div class="single_left_coloum floatleft"> <img src="images/single_featured.png" alt="" />
+                                    <h3>Lorem ipsum dolor sit amet, consectetur</h3>
+                                    <p>Nulla quis lorem neque, mattis venenatis lectus. In interdum ullamcorper dolor eu mattis.</p>
+                                    <a class="readmore" href="#">read more</a>
+                                </div>
+                            </div>
+                            <div class="single_left_coloum_wrapper">
+                                <h2 class="title">latest articles</h2>
+                                <a class="more" href="#">more</a>
+                                <div class="single_left_coloum floatleft"> <img src="images/single_featured.png" alt="" />
+                                    <h3>Lorem ipsum dolor sit amet, consectetur</h3>
+                                    <p>Nulla quis lorem neque, mattis venenatis lectus. In interdum ullamcorper dolor eu mattis.</p>
+                                    <a class="readmore" href="#">read more</a>
+                                </div>
+                                <div class="single_left_coloum floatleft"> <img src="images/single_featured.png" alt="" />
+                                    <h3>Lorem ipsum dolor sit amet, consectetur</h3>
+                                    <p>Nulla quis lorem neque, mattis venenatis lectus. In interdum ullamcorper dolor eu mattis.</p>
+                                    <a class="readmore" href="#">read more</a>
+                                </div>
+                                <div class="single_left_coloum floatleft"> <img src="images/single_featured.png" alt="" />
+                                    <h3>Lorem ipsum dolor sit amet, consectetur</h3>
+                                    <p>Nulla quis lorem neque, mattis venenatis lectus. In interdum ullamcorper dolor eu mattis.</p>
+                                    <a class="readmore" href="#">read more</a>
+                                </div>
+                            </div>
+                            <div class="single_left_coloum_wrapper gallery">
+                                <h2 class="title">gallery</h2>
+                                <a class="more" href="#">more</a> <img src="images/single_featured.png" alt="" /> <img src="images/single_featured.png" alt="" /> <img src="images/single_featured.png" alt="" /> <img src="images/single_featured.png" alt="" /> <img src="images/single_featured.png" alt="" /> <img src="images/single_featured.png" alt="" />
+                            </div>
+                            <div class="single_left_coloum_wrapper single_cat_left">
+                                <h2 class="title">tech news</h2>
+                                <a class="more" href="#">more</a>
+                                <div class="single_cat_left_content floatleft">
+                                    <h3>Lorem ipsum dolor sit amet conse ctetur adipiscing elit </h3>
+                                    <p>Nulla quis lorem neque, mattis venenatis lectus. In interdum ullamcorper dolor ...interdum</p>
+                                    <p class="single_cat_left_content_meta">by <span>John Doe</span> | 29 comments</p>
+                                </div>
+                                <div class="single_cat_left_content floatleft">
+                                    <h3>Lorem ipsum dolor sit amet conse ctetur adipiscing elit </h3>
+                                    <p>Nulla quis lorem neque, mattis venenatis lectus. In interdum ullamcorper dolor ...interdum</p>
+                                    <p class="single_cat_left_content_meta">by <span>John Doe</span> | 29 comments</p>
+                                </div>
+                                <div class="single_cat_left_content floatleft">
+                                    <h3>Lorem ipsum dolor sit amet conse ctetur adipiscing elit </h3>
+                                    <p>Nulla quis lorem neque, mattis venenatis lectus. In interdum ullamcorper dolor ...interdum</p>
+                                    <p class="single_cat_left_content_meta">by <span>John Doe</span> | 29 comments</p>
+                                </div> 
+                                <div class="single_cat_left_content floatleft">
+                                    <h3>Lorem ipsum dolor sit amet conse ctetur adipiscing elit </h3>
+                                    <p>Nulla quis lorem neque, mattis venenatis lectus. In interdum ullamcorper dolor ...interdum</p>
+                                    <p class="single_cat_left_content_meta">by <span>John Doe</span> | 29 comments</p> 
+                                </div> 
+                            </div> 
+                        </div> 
+                    </div>   -->
+               <div class="right_coloum floatright">
+                    <div class="single_right_coloum">
+                        <h2 class="title"><a href="covid_science.html">covid science</a></h2>
+                        <ul>
+                            <li>
+                                <div class="single_cat_right_content">
+                                    <h3>LOCKDOWNS DON'T WORK</h3>
+                                    <h4>SCIENTIFIC STUDY ~ Covid-19 Mortality: A Matter of Vulnerability Among Nations Facing Limited Margins of Adaptation</h4>
+                                    <h9>Frontiers in Public Health</h9>
+                                    <p>RESULTS: Stringency of the measures settled to fight pandemia, including lockdown, did not appear to be linked with death rate.</p>
+                                    <p class="single_cat_right_content_meta"><a href="https://www.frontiersin.org/articles/10.3389/fpubh.2020.604339/full"><span>read more</span></a> November 2020</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="single_cat_right_content">
+                                    <h3>MASKS DON'T WORK</h3>
+                                    <h4>SCIENTIFIC STUDY ~ Facemasks in the COVID-19 era: A health hypothesis
+                                    </h4>
+                                    <h9>ScienceDirect: Medical Hypotheses</h9>
+                                    <p>RESULTS: Although, scientific evidence supporting facemasks’ efficacy is lacking, adverse physiological, psychological and health effects are established.</p>
+                                    <p class="single_cat_right_content_meta"><a href="https://www.sciencedirect.com/science/article/pii/S0306987720333028"><span>read more</span></a> January 2021</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="single_cat_right_content">
+                                    <h3>SURFACES DON'T TRANSMIT</h3>
+                                    <h4>SCIENTIFIC STUDY ~ Science Brief: SARS-CoV-2 and Surface (Fomite) Transmission for Indoor Community Environments</h4>
+                                    <h9>Centers for Disease Control and Prevention (CDC)</h9>
+                                    <p>RESULTS: Findings of these studies suggest that the risk of SARS-CoV-2 infection via the fomite transmission route is low, and generally less than 1 in 10,000, which means that each contact with a contaminated surface has less than a 1 in 10,000 chance of causing an infection.</p>
+                                    <p class="single_cat_right_content_meta"><a href="https://www.cdc.gov/coronavirus/2019-ncov/more/science-and-research/surface-transmission.html"><span>read more</span></a> April 2021</p>
+                                </div>
+                            </li>
+                        </ul>
+                        <a class="popular_more" href="#">more</a>
+                    </div>
+                    <div class="single_right_coloum">
+                        <h2 class="title">editorial</h2>
+                        <div class="single_cat_right_content editorial"> <img src="images/editorial_img.png" alt="" />
+                            <h3>Lorem ipsum dolor sit amet con se cte tur adipiscing elit</h3>
+                        </div>
+                        <div class="single_cat_right_content editorial"> <img src="images/editorial_img.png" alt="" />
+                            <h3>Lorem ipsum dolor sit amet con se cte tur adipiscing elit</h3>
+                        </div>
+                           <div class="single_cat_right_content editorial"> <img src="images/editorial_img.png" alt="" />
+                            <h3>Lorem ipsum dolor sit amet con se cte tur adipiscing elit</h3>
+                        </div>
+                           <div class="single_cat_right_content editorial"> <img src="images/editorial_img.png" alt="" />
+                            <h3>Lorem ipsum dolor sit amet con se cte tur adipiscing elit</h3>
+                        </div>
+                        <div class="single_cat_right_content editorial"> <img src="images/editorial_img.png" alt="" />
+                            <h3>Lorem ipsum dolor sit amet con se cte tur adipiscing elit</h3>
+                        </div>
+                        <div class="single_cat_right_content editorial"> <img src="images/editorial_img.png" alt="" />
+                            <h3>Lorem ipsum dolor sit amet con se cte tur adipiscing elit</h3>
+                        </div>
+                    </div>
+                </div>
+                <!-- IF YOU WANT A NEWSLETTER SIGNUP HOPEFLLY LATER
+MAYBE i CAN JUST PUT A GOOLGE FORM HERE? -->
+                <!--        <div class="sidebar floatright">
+                        <div class="single_sidebar"> <img src="images/add1.png" alt="" /> </div> 
+                        <div class="single_sidebar">
+                            <div class="news-letter">
+                                <h2>Sign Up for Newsletter</h2>
+                                <p>Sign up to receive our free newsletters!</p>
+                                <form action="#" method="post">
+                                    <input type="text" value="Name" id="name" />
+                                    <input type="text" value="Email Address" id="email" />
+                                    <input type="submit" value="SUBMIT" id="form-submit" />
+                                </form>
+                                <p class="news-letter-privacy">We do not spam. We value your privacy!</p>
+                            </div>
+                        </div> -->
+                <!-- IF YOU WANT A POPULAR FEED
+                        <div class="single_sidebar">
+                            <div class="popular">
+                                <h2 class="title">Popular</h2>
+                                <ul>
+                                    <li>
+                                        <div class="single_popular">
+                                            <p>Sept 24th 2045</p>
+                                            <h3>Lorem ipsum dolor sit amet conse ctetur adipiscing elit <a href="#" class="readmore">Read More</a></h3>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="single_popular">
+                                            <p>Sept 24th 2045</p>
+                                            <h3>Lorem ipsum dolor sit amet conse ctetur adipiscing elit <a href="#" class="readmore">Read More</a></h3>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="single_popular">
+                                            <p>Sept 24th 2045</p>
+                                            <h3>Lorem ipsum dolor sit amet conse ctetur adipiscing elit <a href="#" class="readmore">Read More</a></h3>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="single_popular">
+                                            <p>Sept 24th 2045</p>
+                                            <h3>Lorem ipsum dolor sit amet conse ctetur adipiscing elit <a href="#" class="readmore">Read More</a></h3>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="single_popular">
+                                            <p>Sept 24th 2045</p>
+                                            <h3>Lorem ipsum dolor sit amet conse ctetur adipiscing elit <a href="#" class="readmore">Read More</a></h3>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <a class="popular_more">more</a>
+                            </div>
+                        </div> -->
+
+            </div>
+        </div>
+ <div class="content_area">
+            <div class="aligncenter">
+                <div class="logo">
+                    <h2 class="title">DONATE HERE</h2>
+                    <p3>Please help me keep this hub of information online. Consider DONATING using any of the methods below:</p3>
+                    <button class="btn" data-clipboard-text="bc1qap9tkh9dk8nf04cesahvj623qwqwmk5c4zmqrx" style="display: inline-block">Copy <img src="images/btc.svg" alt="Bitcoin Logo" /> Wallet Address </button>
+                    <p4>BTC: bc1qap9tkh9dk8nf04cesahvj623qwqwmk5c4zmqrx</p4>
+
+                    <button class="btn" data-clipboard-text="0x5bAe5C4Ee10EB0b9eE3e1105194C346F4CEcAf5" style="display: inline-block">Copy <img src="images/eth.svg" alt="Bitcoin Logo" /> Wallet Address </button>
+                    <p4>ETH: 0x5bAe5C4Ee10EB0b9eE3e1105194C346F4CEcAf5</p4>
+
+                    <button class="btn" data-clipboard-text="DNBAER7G3kxMg41UPr5emiwDZA1Jg1srvg" style="display: inline-block">Copy <img src="images/doge.svg" alt="Bitcoin Logo" /> Wallet Address </button>
+                    <p4>DOGE: DNBAER7G3kxMg41UPr5emiwDZA1Jg1srvg</p4>
+
+                    <button class="btn" data-clipboard-text="4Aaj4hi4Vpy36gFQofxLA9LUHsCAZEQJHWLHJNLAqoCsSyZ9gM2fGWjiuh4u5WoRfhET46TsQXPMocVCPm8Cnq6o3YkiUw7" style="display: inline-block">Copy <img src="images/xmr.svg" alt="Bitcoin Logo" /> Wallet Address </button>
+                    <p4>XMR: 4Aaj4hi4Vpy36gFQofxLA9LUHsCAZEQJHWLHJNLAqoCsSyZ9gM2fGWjiuh4u5WoRfhET46TsQXPMocVCPm8Cnq6o3YkiUw7</p4>
+
+                    <button class="btn" data-clipboard-text="Lgy4mesZ9iYtWpk6A315zXzQzL6uEofPAU" style="display: inline-block">Copy <img src="images/ltc.svg" alt="Bitcoin Logo" /> Wallet Address </button>
+                    <p4>LTC: Lgy4mesZ9iYtWpk6A315zXzQzL6uEofPAU</p4>
+
+                    <button class="btn" data-clipboard-text="rLtGNisqfGh73cLh3gKQn1dsTyC9VPrKFU" style="display: inline-block">Copy <img src="images/xrp.svg" alt="Bitcoin Logo" /> Wallet Address </button>
+                    <p4>XRP: rLtGNisqfGh73cLh3gKQn1dsTyC9VPrKFU</p4>
+                    <button class="btn" data-clipboard-text="0x5bAe5C4Ee10EB0b9eE3e1105194C346F4CEcAf5e" style="display: inline-block">Copy <img src="images/usdt.svg" alt="Bitcoin Logo" /> Wallet Address </button>
+                    <p4>USDT: 0x5bAe5C4Ee10EB0b9eE3e1105194C346F4CEcAf5e</p4>
+
+                    <button class="btn" data-clipboard-text="TErxokaVYhAoHeDQyMrc4Raqe6K7krMt39" style="display: inline-block">Copy <img src="images/trx.svg" alt="Bitcoin Logo" /> Wallet Address </button>
+                    <p4>TRX: TErxokaVYhAoHeDQyMrc4Raqe6K7krMt39</p4>
+
+                    <button class="btn" data-clipboard-text="AMFdh5EAEC2kHBWDqqMEuvq8MStYS1m3dP" style="display: inline-block">Copy <img src="images/neo.svg" alt="Bitcoin Logo" /> Wallet Address </button>
+                    <p4>NEO: AMFdh5EAEC2kHBWDqqMEuvq8MStYS1m3dP</p4>
+
+                    <button class="btn" data-clipboard-text="tz1Vw9NNLN1h8HBddXEJw2Fcq7JY6VrRFhtH" style="display: inline-block">Copy <img src="images/xtz.svg" alt="Bitcoin Logo" /> Wallet Address </button>
+                    <p4>XTZ: tz1Vw9NNLN1h8HBddXEJw2Fcq7JY6VrRFhtH</p4>
+
+                    <button class="btn" data-clipboard-text="NDIILYTKTD3LNJBFIFETRD6X226WJ2BKG5EUTHHH" style="display: inline-block">Copy <img src="images/xem.svg" alt="Bitcoin Logo" /> Wallet Address </button>
+                    <p4>XEM: NDIILYTKTD3LNJBFIFETRD6X226WJ2BKG5EUTHHH</p4>
+
+                    <button class="btn" data-clipboard-text="cosmos1s7w4c3a8pzcm0dwdsq3sweunwvdz6s6sc6a8jy" style="display: inline-block">Copy <img src="images/atom.svg" alt="Bitcoin Logo" /> Wallet Address </button>
+                    <p4>ATOM: cosmos1s7w4c3a8pzcm0dwdsq3sweunwvdz6s6sc6a8jy</p4>
+                    <button class="btn" data-clipboard-text="addr1q804eem8lun27vfezlhpvx98gpjqzyqv7udpsjvalcwlqvkltnnk0lex4ucnj9lwzcv2wsryqygqeac6rpyemlsa7qeq28p4jn" style="display: inline-block">Copy <img src="images/ada.svg" alt="Bitcoin Logo" /> Wallet Address </button>
+                    <p4>ADA: addr1q804eem8lun27vfezlhpvx98gpjqzyqv7udpsjvalcwlqvkltnnk0lex4ucnj9lwzcv2wsryqygqeac6rpyemlsa7qeq28p4jn</p4>
+                </div>
+            </div>
+        </div>
+
+        <!--    <div class="footer_top_area">
+            <div class="inner_footer_top"></div>
+        </div> -->
+        <div class="footer_bottom_area">
+            <div class="footer_menu">
+                <ul id="f_menu">
+                    <li><a href="world_watch.html">world watch</a></li>
+                    <li><a href="elite_watch.html">elite watch</a></li>
+                    <li><a href="tech_watch.html">tech watch</a></li>
+                    <li><a href="financial_watch.html">financial watch</a></li>
+                    <li><a href="propaganda_watch.html">propaganda watch</a></li>
+                    <li><a href="culture_watch.html">culture watch</a></li>
+                    <li><a href="recommended.html">recommended</a></li>
+                    <li><a href="covid_watch.html">covid-19 watch</a></li>
+                </ul>
+            </div>
+            <div class="copyright_text">
+                <p5>Copyright &copy; 2021 The Vector. All rights reserved | Design by
+                    <a class="a2" style="font-size: 1em" target="_blank" rel="nofollow" href="http://www.kylebeattie.dx.am">Kyle Beattie</a>
+                </p5>
+                <p5>All data held and linked here is under the Creative Commons license and is FREE to use, link, and distribute under the Creative Commons license</p5>
+            </div>
+        </div>
+    </div>
+    <!--     </div> -->
+    
+        <!-- THIS IS THE CODE FOR MY COPY CLIPBOARD BUTTONS -->
+
+    <!-- 2. Include library -->
+     <script src="assets/js/clipboard.min.js"></script>
+
+    <!-- 3. Instantiate clipboard by passing a string selector -->
+    <script>
+        var clipboard = new ClipboardJS('.btn');
+
+        clipboard.on('success', function(e) {
+            console.log(e);
+            console.info('Text:', e.text);
+            alert("Copied!");
+            
+        });
+
+        clipboard.on('error', function(e) {
+            console.log(e);
+            console.info('Text:', e.text);
+            alert("Try Again");
+        });
+    </script> 
+    
+    
+    <script type="text/javascript" src="assets/js/jquery-min.js"></script>
+    <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="assets/js/jquery.bxslider.js"></script>
+    <script type="text/javascript" src="assets/js/selectnav.min.js"></script>
+    <script type="text/javascript">
+        selectnav('nav', {
+            label: '-Navigation-',
+            nested: true,
+            indent: '-'
+        });
+        selectnav('f_menu', {
+            label: '-Navigation-',
+            nested: true,
+            indent: '-'
+        });
+        $('.bxslider').bxSlider({
+            mode: 'fade',
+            captions: true
+        });
+    </script>
+    <!--     </div> -->
+</body>
+
+</html>
