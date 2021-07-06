@@ -40,6 +40,7 @@ button:hover{cursor: pointer; background-color: limegreen; color: #000}
 button2{padding: .5em; margin-left: 1em; background-color: #000; color: #fff; border-style: outset; border-radius: .25em}
 button2:hover{cursor: pointer; background-color: limegreen; color: #000}
 img{max-width:100%; height:auto; border-radius: .5em; padding: .5em}
+.img2{max-width: 50%}
 .alignleft{float:left; margin-left:0px}
 .aligncenter{display:block; margin:10px auto; overflow:visible}
 .alignright{float:right; margin-left:10px}
