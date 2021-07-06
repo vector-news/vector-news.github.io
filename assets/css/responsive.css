@@ -58,7 +58,8 @@ h9{color: #fff; font-size: .86em; word-wrap:break-word; display: block; padding:
 .single_left_coloum_wrapper .title{margin-left:3px}
 .title{font-size:15px}
 .single_left_coloum{margin-left:3px}
-    img{width: 100%}
+    img{max-width: 25%}
+    .img2{max-width: 100%}
 }
 
 /*Wide Mobile Layout: 480px.*/
@@ -83,5 +84,7 @@ h9{color: #fff; font-size: .86em; word-wrap:break-word; display: block; padding:
 .sidebar{float:none; margin:0 auto}
 .footer_top_area{padding:12px 0; width:430px}
 .inner_footer_top{width:350px}
-    img{width: 100%}
+    img{max-width: 25%}
+    .img2{max-width: 100%}
+
 }
