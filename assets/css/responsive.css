@@ -58,8 +58,9 @@ h9{color: #fff; font-size: .86em; word-wrap:break-word; display: block; padding:
 .single_left_coloum_wrapper .title{margin-left:3px}
 .title{font-size:15px}
 .single_left_coloum{margin-left:3px}
-    img{max-width: 25%}
-    .img2{max-width: 100%}
+    img{max-width: 25%} /* for crypto logos */
+    .img2{max-width: 100%} /* for images in editorials */
+    .img3{max-width: 100%} /* for images on the front page */
 }
 
 /*Wide Mobile Layout: 480px.*/
