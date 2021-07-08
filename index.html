@@ -1,8 +1,8 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 
-<!-- PUT ALL OTHER CSS SHEETS HERE -->    
-    
+<!-- PUT ALL OTHER CSS SHEETS HERE -->
+
 <head>
     <title>The Vector</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -17,50 +17,53 @@
     <link rel="stylesheet" type="text/css" href="assets/css/jquery.bxslider.css" media="screen" />
 
 
-<!-- COLOR MODE CHANGER -->
+    <!-- COLOR MODE CHANGER -->
 
     <!-- PUT YOUR STARTING CSS SHEET HERE -->
-<link id="pagestyle" rel="stylesheet" type="text/css" href="assets/css/style.css">
-<link id="headstyle" rel="stylesheet" type="text/css" href="assets/css/responsive.css" media="screen" />
+    <link id="pagestyle" rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link id="headstyle" rel="stylesheet" type="text/css" href="assets/css/responsive.css" media="screen" />
 
 
-<!-- THIS IS THE STYLE CHANGING FUNCTION -->    
-<script>
-function swapStyleSheet(sheet, headsheet, sheetlite, headsheetlite){
-	document.getElementById('pagestyle').setAttribute('href', sheet);
-    document.getElementById('headstyle').setAttribute('href',headsheet);
- 	document.getElementById('pagestylelite').setAttribute('href', sheetlite);
-    document.getElementById('headstylelite').setAttribute('href',headsheetlite);   
-}
-</script>
+    <!-- THIS IS THE STYLE CHANGING FUNCTION -->
+    <script>
+        function swapStyleSheet(sheet, headsheet, sheetlite, headsheetlite) {
+            document.getElementById('pagestyle').setAttribute('href', sheet);
+            document.getElementById('headstyle').setAttribute('href', headsheet);
+            document.getElementById('pagestylelite').setAttribute('href', sheetlite);
+            document.getElementById('headstylelite').setAttribute('href', headsheetlite);
+        }
 
-<!-- THIS IS THE STICKY TITLE SCROLL FUNCTION -->
-    
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    </script>
+
+    <!-- THIS IS THE STICKY TITLE SCROLL FUNCTION -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script type="text/javascript">
-        $(window).scroll(function () {
+        $(window).scroll(function() {
             if ($(window).scrollTop() > 420) {
                 $(".header_area").addClass("fixed");
             } else {
                 $(".header_area").removeClass("fixed");
             }
         });
+
     </script>
-    
+
 </head>
-    
-<!-- THESE ARE THE BUTTON LINKS -->    
+
+<!-- THESE ARE THE BUTTON LINKS -->
+
 <body>
-<h9>Change Color Scheme</h9>
-<button2 onclick="swapStyleSheet('assets/css/style.css','assets/css/responsive.css')">Dark Mode</button2>
-<!-- IF I MAKE MORE STYLES I CAN PUT THEM HERE AS OTHER BUTTONS. <button onclick="swapStyleSheet('blue.css')">Blue Style Sheet</button> -->
-<button onclick="swapStyleSheet('assets/css/style_lite.css','assets/css/responsive_lite.css')">Light Mode</button>
+    <h9>Change Color Scheme</h9>
+    <button2 onclick="swapStyleSheet('assets/css/style.css','assets/css/responsive.css')">Dark Mode</button2>
+    <!-- IF I MAKE MORE STYLES I CAN PUT THEM HERE AS OTHER BUTTONS. <button onclick="swapStyleSheet('blue.css')">Blue Style Sheet</button> -->
+    <button onclick="swapStyleSheet('assets/css/style_lite.css','assets/css/responsive_lite.css')">Light Mode</button>
 </body>
-    
-    
- <!--   <div class="transparencyEmbed" id="tp-cpi" data-year="2020"></div>
+
+
+<!--   <div class="transparencyEmbed" id="tp-cpi" data-year="2020"></div>
     <script src="https://transparency.org/assets/dist/embed-generator.js"></script> -->
-    
+
 <body>
     <div class="body_wrapper">
         <div class="center">
@@ -78,7 +81,7 @@ function swapStyleSheet(sheet, headsheet, sheetlite, headsheetlite){
           <li><a href="#">Login</a></li> -->
                     </ul>
                 </div>
-                
+
                 <!-- SOCIAL MEDIA ADDITIONS GO HERE ONCE THEY ARE ESTABLISHED -->
                 <!--     <div class="social_plus_search floatright">
         <div class="social">
@@ -101,21 +104,21 @@ function swapStyleSheet(sheet, headsheet, sheetlite, headsheetlite){
                 <div class="main_menu_area">
                     <ul id="nav">
                         <li><a href="world_watch.html">world watch</a>
-                 <!--           <ul>
+                            <!--           <ul>
                                 <li><a href="#">Single item</a></li>
                                 <li><a href="#">Single item</a></li>
                                 <li><a href="#">Single item</a></li>
                             </ul> -->
                         </li>
                         <li><a href="elite_watch.html">elite watch</a>
-                  <!--       <ul>
+                            <!--       <ul>
                                 <li><a href="#">Single item</a></li>
                                 <li><a href="#">Single item</a></li>
                                 <li><a href="#">Single item</a></li>
                             </ul> -->
                         </li>
                         <li><a href="tech_watch.html">tech watch</a>
-                 <!--   THIS CAN ADD A DROPDOWN LIST OF ARTICLES
+                            <!--   THIS CAN ADD A DROPDOWN LIST OF ARTICLES
                         HOW CAN I MAKE THESE UPDATE AUTOMATICALLY?
 
                             <ul>
@@ -125,158 +128,158 @@ function swapStyleSheet(sheet, headsheet, sheetlite, headsheetlite){
                             </ul> -->
                         </li>
                         <li><a href="financial_watch.html">financial watch</a>
-               <!--          <ul>
+                            <!--          <ul>
                                 <li><a href="#">Single item</a></li>
                                 <li><a href="#">Single item</a></li>
                                 <li><a href="#">Single item</a></li>
                             </ul> -->
                         </li>
                         <li><a href="covid_watch.html">covid watch</a>
-             <!--            <ul>
+                            <!--            <ul>
                                 <li><a href="#">Single item</a></li>
                                 <li><a href="#">Single item</a></li>
                                 <li><a href="#">Single item</a></li>
                             </ul> -->
                         </li>
                         <li><a href="covid_science.html">covid science</a>
-             <!--            <ul>
+                            <!--            <ul>
                                 <li><a href="#">Single item</a></li>
                                 <li><a href="#">Single item</a></li>
                                 <li><a href="#">Single item</a></li>
                             </ul> -->
                         </li>
                         <li><a href="culture_watch.html">culture watch</a>
-                <!--            <ul>
+                            <!--            <ul>
                                 <li><a href="#">Single item</a></li>
                                 <li><a href="#">Single item</a></li>
                                 <li><a href="#">Single item</a></li>
                             </ul> -->
                         </li>
                         <li><a href="recommended.html">recommended</a>
-                 <!--        <ul>
+                            <!--        <ul>
                                 <li><a href="#">Single item</a></li>
                                 <li><a href="#">Single item</a></li>
                                 <li><a href="#">Single item</a></li>
                             </ul> -->
                     </ul>
                 </div>
-           </div>     
-                <div class="main_content floatleft">
-                    <!-- USE THIS FOR ALERTS IF NECESSARY
+            </div>
+            <div class="main_content floatleft">
+                <!-- USE THIS FOR ALERTS IF NECESSARY
                     
 <p2>alert! alert! alert! they are shutting down the web!!!</p2>
 -->
 
-                    <h1 class="title">RECENT NEWS</h1>
+                <h1 class="title">RECENT NEWS</h1>
 
-                    <!-- ADD ALL NEW ARTICLES HERE RIGHT ON TOP. WHEN THE LIST GETS TOO FULL, MAYBE MORE THAN 30 OR 40, START ARCHIVING FROM THE BOTTOM IN EACH OF THE DIFFERENT WATCH PAGES. SET UP MORE WATCH PAGES AS NECESSARY.-->
-                    
-                    <h2a><a href="http://rss.slashdot.org/~r/Slashdot/slashdot/~3/AqDsO_VVtdQ/bank-of-england-to-consider-digital-money-plan">Bank of England To Consider Digital Money Plan </a></h2a><h2b><a class="a2" href="financial_watch.html">[financial_watch]</a></h2b><h4>Source: Slashdot ~ msdash</h4>
-                    
-                    <h2a><a href="https://www.mintpressnews.com/israel-masking-al-walaja-land-grabs-environmental-conservation/276441/">An Old Green Colonial Trick: Israel Disguising Land Grabs as Environmental Conservation </a></h2a>
-                    <h2b><a class="a2" href="world_watch.html">[empire_watch]</a>
-                    </h2b>
-                    
-                    <h4>Source: Mint Press News ~ Jessica Buxbaum</h4>
-                    <h2a><a href="https://www.mintpressnews.com/bellingcat-intelligence-agencies-launders-talking-points-media/276603/">How Bellingcat Launders National Security State Talking Points into the Press </a></h2a>
-                    <h2b>
-                        <a class="a2" href="propaganda_watch.html">[propaganda_watch]</a>
-                    </h2b>
-                    <h4>Source: Mint Press News ~ Alan Macleod</h4>
-                    <h2a><a href="https://www.zerohedge.com/crypto/chinas-digital-yuan-comes-expiration-date">China's new digital money can expire BEFORE you use it </a></h2a>
-                    <h2b>
-                        <a class="a2" href="financial_watch.html">[financial_watch]</a>
-                    </h2b>
-                    <h4>Source: ZeroHedge ~ Tyler Durden</h4>
+                <!-- ADD ALL NEW ARTICLES HERE RIGHT ON TOP. WHEN THE LIST GETS TOO FULL, MAYBE MORE THAN 30 OR 40, START ARCHIVING FROM THE BOTTOM IN EACH OF THE DIFFERENT WATCH PAGES. SET UP MORE WATCH PAGES AS NECESSARY.-->
 
-                    <h2a><a href="https://www.thelastamericanvagabond.com/michael-yeadon-interview-former-pfizer-vp-speaks-out-on-dangers-of-mrna-vaccines-covid-illusion/">Michael Yeadon Interview – Former Pfizer VP Speaks Out On Dangers Of mRNA Vaccines and COVID Illusion </a></h2a>
-                    <h2b>
-                        <a class="a2" href="covid_watch.html">[covid_19]</a>
-                    </h2b>
-                    <h4>Source: The Last American Vagabond ~ Ryan Cristián</h4>
-                    <h2a><a href="https://www.revolver.news/2021/04/corporate-overlords-assemble-to-plot-how-to-subvert-elected-officials/">Corporate overlords assemble to plot how to subvert elected officials… </a></h2a>
-                    <h2b>
-                        <a class="a2" href="elite_watch.html">[elite_watch]</a>
-                    </h2b>
-                    <h4>Source: Revolver News ~ Darren Beattie</h4>
-                    <h2a><a href="https://www.theepochtimes.com/arizona-governor-signs-bill-banning-private-donations-for-election-processes_3771846.html">Arizona Governor Signs Bill Banning Private Donations for Election Processes </a></h2a>
-                    <h2b>
-                        <a class="a2" href="elite_watch.html">[gov_watch]</a>
-                    </h2b>
-                    <h4>Source: Epoch Times ~ Isabel van Brugen</h4>
-                    <h2a><a href="https://www.theepochtimes.com/biden-to-meet-with-bipartisan-group-of-lawmakers-about-infrastructure-proposal_3771939.html">The Uniparty is Back! Biden, RINOS meet for an infrastructure bacon breakfast of pure pork </a></h2a>
-                    <h2b>
-                        <a class="a2" href="elite_watch.html">[gov_watch]</a>
-                    </h2b>
-                    <h4>Source: Epoch Times ~ Zachary Stieber</h4>
-                    <h2a><a href="https://www.theepochtimes.com/three-covid-19-deaths-reported-among-those-vaccinated-in-oregon-officials_3772114.html">Three COVID-19 Deaths Reported Among Those Vaccinated in Oregon: Officials </a></h2a>
-                    <h2b>
-                        <a class="a2" href="covid_watch.html">[covid_19]</a>
-                    </h2b>
-                    <h4>Source: Epoch Times ~ Jack Phillips</h4>
-                    <h2a><a href="https://www.infowars.com/posts/woman-details-severe-covid-vaccine-reaction-within-minutes-i-knew-i-was-going-to-pass-out">Woman Details Severe COVID Vaccine Reaction – “Within Minutes I Knew I Was Going To Pass Out” </a></h2a>
-                    <h2b>
-                        <a class="a2" href="covid_watch.html">[covid_19]</a>
-                    </h2b>
-                    <h4>Source: InfoWars ~ Kelen McBreen</h4>
-                    <h2a><a href="https://www.infowars.com/posts/netherlands-man-dies-minutes-after-receiving-pfizer-vaccine">Netherlands: Man Dies Minutes After Receiving Pfizer Vaccine </a></h2a>
-                    <h2b>
-                        <a class="a2" href="covid_watch.html">[covid_19]</a>
-                    </h2b>
-                    <h4>Source: InfoWars ~ Dan Lyman</h4>
-                    <h2a><a href="https://www.infowars.com/posts/netherlands-man-dies-minutes-after-receiving-pfizer-vaccine">CONFUSION: Hundreds Testing Positive for Covid After Being Fully Vaccinated </a></h2a>
-                    <h2b>
-                        <a class="a2" href="covid_watch.html">[covid_19]</a>
-                    </h2b>
-                    <h4>Source: InfoWars ~ Adan Salazar</h4>
-                    <h2a><a href="https://www.sciencenews.org/article/coronavirus-covid-ppe-trash-masks-gloves-pollution-deadly-wildlife">Penguins ingesting MASKS, Octopi hiding under them, and Hedgehogs trapped in GLOVES: These are the enivronmental hazards caused by your neurotic desire to prevent any and all disease from touching your immune system </a></h2a>
-                    <h2b>
-                        <a class="a2" href="covid_watch.html">[covid_19]</a>
-                    </h2b>
-                    <h4>Source: ScienceNews ~ Anne Pinto-Rodrigues</h4>
-                    <h2a><a href="https://www.sciencenews.org/article/covid-coronavirus-astrazeneca-vaccine-blood-clots-brain-rare-cases">AstraZeneca’s COVID-19 vaccine is tied to uncommon blood clots in rare cases </a></h2a>
-                    <h2b>
-                        <a class="a2" href="covid_watch.html">[covid_19]</a>
-                    </h2b>
-                    <h4>Source: ScienceNews ~ Erin Garcia de Jesús</h4>
-                    <h2a><a href="https://yro.slashdot.org/story/21/04/12/214203/kraken-ceo-warns-a-crackdown-on-cryptocurrencies-may-be-coming?utm_source=rss1.0moreanon&utm_medium=feed">Kraken CEO Warns a Crackdown On Cryptocurrencies May Be Coming </a></h2a>
-                    <h2b>
-                        <a class="a2" href="financial_watch.html">[financial_watch]</a>
-                    </h2b>
-                    <h4>Source: Slashdot ~ BeauHD</h4>
-                    <h2a><a href="https://www.infowars.com/posts/woman-details-severe-covid-vaccine-reaction-within-minutes-i-knew-i-was-going-to-pass-out">Clarence Thomas blasts Section 230, wants “common-carrier” rules on Twitter </a></h2a>
-                    <h2b>
-                        <a class="a2" href="tech_watch.html">[tech_watch]</a>
-                    </h2b>
-                    <h4>Source: arsTECHNICA ~ Jon Brodkin</h4>
-                    <h2a><a href="https://arstechnica.com/tech-policy/2021/04/how-the-supreme-court-saved-the-software-industry-from-api-copyrights/#p3">GOOGLE'S own GREED saves would be API copyright violators... for now </a></h2a>
-                    <h2b>
-                        <a class="a2" href="tech_watch.html">[tech_watch]</a>
-                    </h2b>
-                    <h4>Source: arsTECHNICA ~ Timothy B. Lee</h4>
-                    <h2a><a href="https://arstechnica.com/?p=1755823">Ecological impacts of solar geoengineering are highly uncertain...Bill Gates is thus HIGHLY in favor </a></h2a>
-                    <h2b>
-                        <a class="a2" href="elite_watch.html">[enviro_watch]</a>
-                    </h2b>
-                    <h4>Source: arsTECHNICA ~ Doug Johnson</h4>
-                    <h2a><a href="https://populist.press/pentagon-confirms-leaked-footage-of-ufos-swarming-a-us-navy-destroyer-as-genuine/">Pentagon confirms leaked footage of UFOs swarming a US Navy destroyer as genuine </a></h2a>
-                    <h2b>
-                        <a class="a2" href="tech_watch.html">[tech_watch]</a>
-                    </h2b>
-                    <h4>Source: Populist Press ~ Populist Press</h4>
+                <h2a><a href="http://rss.slashdot.org/~r/Slashdot/slashdot/~3/yfQpkxo9ILM/hackers-scrape-90000-gettr-user-emails-surprising-no-one">Trump's new app hacked, 90,000+ users exposed </a></h2a>
+                <h2b><a class="a2" href="tech_watch">[tech_watch]</a></h2b>
+                <h4>Source: Slashdot ~ BeauHD | July 6, 2021</h4>
+                <h2a><a href="http://rss.slashdot.org/~r/Slashdot/slashdot/~3/Ex6BYqHNx6Q/chinese-owned-firm-acquires-uks-largest-semiconductor-manufacturer">Chinese-owned Firm Acquires UK's Largest Semiconductor Manufacturer </a></h2a>
+                <h2b><a class="a2" href="tech_watch">[tech_watch]</a></h2b>
+                <h4>Source: Slashdot ~ msmash | July 6, 2021</h4>
+                <h2a><a href="https://arstechnica.com/tech-policy/2021/07/americas-smart-city-didnt-get-much-smarter/#p3">America’s “Smart City” didn’t get much smarter </a></h2a>
+                <h2b><a class="a2" href="tech_watch">[tech_watch]</a></h2b>
+                <h4>Source: arsTECHNICA ~ Aarian Marshall, wired.com | July 5, 2021</h4>
+                <h2a><a href="http://rss.slashdot.org/~r/Slashdot/slashdot/~3/Ow25xHZinnQ/hong-kongs-apple-daily-to-live-on-in-blockchain-free-of-censors">Blockchain Newspapers: Hong Kongers' censorship evasion tactics </a></h2a>
+                <h2b><a class="a2" href="tech_watch">[tech_watch]</a></h2b>
+                <h4>Source: Slashdot ~ msmash | June 24, 2021</h4>
+                <h2a><a href="http://rss.slashdot.org/~r/Slashdot/slashdot/~3/nMZV5_SKWwE/a-bunch-of-google-drive-links-are-about-to-be-broken">A Bunch of Google Drive Links Are About To Be Broken </a></h2a>
+                <h2b><a class="a2" href="tech_watch">[tech_watch]</a></h2b>
+                <h4>Source: Slashdot ~ BeauHD | June 24, 2021</h4>
+                <h2a><a href="http://rss.slashdot.org/~r/Slashdot/slashdot/~3/a-5L1Yfx3WE/warren-buffett-resigns-from-bill-and-melinda-gates-foundation">Warren Buffett jumps ship from the sinking Bill and Melinda Gates Foundation </a></h2a>
+                <h2b><a class="a2" href="elite_watch">[elite_watch]</a></h2b>
+                <h4>Source: Slashdot ~ BeauHD | June 23, 2021</h4>
+                <h2a><a href="http://rss.slashdot.org/~r/Slashdot/slashdot/~3/akBAeyF77vY/morgan-stanleys-new-york-office-bans-unvaccinated-staff-and-clients">Morgan Stanley Supports Coerced Human Experimentation: Bans Unvaccinated Staff and Clients </a></h2a>
+                <h2b><a class="a2" href="covid_watch">[covid_watch]</a></h2b>
+                <h4>Source: Slashdot ~ msmash | June 23, 2021</h4>
+                <h2a><a href="http://rss.slashdot.org/~r/Slashdot/slashdot/~3/jPP_o6kRvqc/canon-uses-ai-cameras-that-only-let-smiling-workers-inside-offices">Canon Uses AI Cameras That Only Let Smiling Workers Inside Offices </a></h2a>
+                <h2b><a class="a2" href="tech_watch">[tech_watch]</a></h2b>
+                <h4>Source: Slashdot ~ msmash | June 22, 2021</h4>
+                <h2a><a href="https://librivox.org/global-trends-2030-alternative-worlds-by-national-intelligence-council/">Global Trends 2030: Alternative Worlds by National Intelligence Council </a></h2a>
+                <h2b><a class="a2" href="world_watch">[world_watch]</a></h2b>
+                <h4>Source: LibriVox ~ National Intelligence Council | June 22, 2021</h4>
+                <h2a><a href="https://www.sciencenews.org/article/cosmetics-makeup-pfas-chemicals">Your makeup can contain potentially dangerous ‘forever chemicals’ </a></h2a>
+                <h2b><a class="a2" href="tech_watch">[tech_watch]</a></h2b>
+                <h4>Source: ScienceNews ~ Maria Temming | June 15, 2021</h4>
+                <h2a><a href="https://www.sciencenews.org/article/new-alzheimers-drug-fda-approved-controversy-aducanumab">FDA approved potentailly BROKEN Alzheimer’s drug: How well did they do with the COVID jabs? </a></h2a>
+                <h2b><a class="a2" href="tech_watch">[tech_watch]</a></h2b>
+                <h4>Source: ScienceNews ~ Laura Sanders | June 7, 2021</h4>
+                <h2a><a href="https://www.sciencenews.org/article/aids-hiv-vaccine-anniversary-immunity-antibodies">Past HIV vaccine attempts caused antibody dependent enhancement </a></h2a>
+                <h2b><a class="a2" href="covid_watch">[covid_watch]</a></h2b>
+                <h4>Source: ScienceNews ~ Erin Garcia de Jesús | June 4, 2021</h4>
+                <h2a><a href="https://www.technocracy.news/california-cafe-5-surcharge-for-wearing-a-mask/">California Cafe: $5 Surcharge For Wearing A Mask </a></h2a>
+                <h2b><a class="a2" href="covid_watch">[covid_watch]</a></h2b>
+                <h4>Source: Technocracy News ~ Amy Furr | June 1, 2021</h4>
+                <h2a><a href="https://www.sciencenews.org/article/hunter-gatherers-warfare-stone-age-jebel-sahaba">War has been with mankind since the hunter-gatherer period </a></h2a>
+                <h2b><a class="a2" href="world_watch">[world_watch]</a></h2b>
+                <h4>Source: ScienceNews ~ Bruce Bower | May, 27, 2021</h4>
+                <h2a><a href="https://yro.slashdot.org/story/21/04/12/214203/kraken-ceo-warns-a-crackdown-on-cryptocurrencies-may-be-coming?utm_source=rss1.0moreanon&utm_medium=feed">Kraken CEO Warns a Crackdown On Cryptocurrencies May Be Coming </a></h2a>
+                <h2b><a class="a2" href="financial_watch">[financial_watch]</a></h2b>
+                <h4>Source: Slashdot ~ BeauHD | April 21, 2021</h4>
+                <h2a><a href="http://rss.slashdot.org/~r/Slashdot/slashdot/~3/AqDsO_VVtdQ/bank-of-england-to-consider-digital-money-plan">Bank of England To Consider Digital Money Plan </a></h2a>
+                <h2b><a class="a2" href="financial_watch">[financial_watch]</a></h2b>
+                <h4>Source: Slashdot ~ msdash | April 21, 2021</h4>
+                <h2a><a href="https://www.theepochtimes.com/arizona-governor-signs-bill-banning-private-donations-for-election-processes_3771846.html">Arizona Governor Signs Bill Banning Private Donations for Election Processes </a></h2a>
+                <h2b><a class="a2" href="elite_watch">[elite_watch]</a></h2b>
+                <h4>Source: Epoch Times ~ Isabel van Brugen | April 12, 2021</h4>
+                <h2a><a href="https://www.theepochtimes.com/biden-to-meet-with-bipartisan-group-of-lawmakers-about-infrastructure-proposal_3771939.html">The Uniparty is Back! Biden, RINOS meet for an infrastructure bacon breakfast of pure pork </a></h2a>
+                <h2b><a class="a2" href="elite_watch">[elite_watch]</a></h2b>
+                <h4>Source: Epoch Times ~ Zachary Stieber | April 12, 2021</h4>
+                <h2a><a href="https://www.theepochtimes.com/three-covid-19-deaths-reported-among-those-vaccinated-in-oregon-officials_3772114.html">Three COVID-19 Deaths Reported Among Those Vaccinated in Oregon: Officials </a></h2a>
+                <h2b><a class="a2" href="covid_watch">[covid_watch]</a></h2b>
+                <h4>Source: Epoch Times ~ Jack Phillips | April 12, 2021</h4>
+                <h2a><a href="https://www.infowars.com/posts/woman-details-severe-covid-vaccine-reaction-within-minutes-i-knew-i-was-going-to-pass-out">Woman Details Severe COVID Vaccine Reaction – “Within Minutes I Knew I Was Going To Pass Out” </a></h2a>
+                <h2b><a class="a2" href="covid_watch">[covid_watch]</a></h2b>
+                <h4>Source: InfoWars ~ Kelen McBreen | April 12, 2021</h4>
+                <h2a><a href="https://www.infowars.com/posts/netherlands-man-dies-minutes-after-receiving-pfizer-vaccine">Netherlands: Man Dies Minutes After Receiving Pfizer Vaccine </a></h2a>
+                <h2b><a class="a2" href="covid_watch">[covid_watch]</a></h2b>
+                <h4>Source: InfoWars ~ Dan Lyman | April 12, 2021</h4>
+                <h2a><a href="https://www.infowars.com/posts/confusion-hundreds-testing-positive-for-covid-after-being-fully-vaccinated">CONFUSION: Hundreds Testing Positive for Covid After Being Fully Vaccinated </a></h2a>
+                <h2b><a class="a2" href="covid_watch">[covid_watch]</a></h2b>
+                <h4>Source: InfoWars ~ Adan Salazar | April 12, 2021</h4>
+                <h2a><a href="https://www.sciencenews.org/article/coronavirus-covid-ppe-trash-masks-gloves-pollution-deadly-wildlife">Penguins ingesting MASKS, Octopi hiding under them, and Hedgehogs trapped in GLOVES: These are the enivronmental hazards caused by your neurotic desire to prevent any and all disease from touching your immune system </a></h2a>
+                <h2b><a class="a2" href="covid_watch">[covid_watch]</a></h2b>
+                <h4>Source: ScienceNews ~ Anne Pinto-Rodrigues | April 12, 2021</h4>
+                <h2a><a href="https://www.infowars.com/posts/woman-details-severe-covid-vaccine-reaction-within-minutes-i-knew-i-was-going-to-pass-out">Clarence Thomas blasts Section 230, wants “common-carrier” rules on Twitter </a></h2a>
+                <h2b><a class="a2" href="tech_watch">[tech_watch]</a></h2b>
+                <h4>Source: arsTECHNICA ~ Jon Brodkin | April 12, 2021</h4>
+                <h2a><a href="https://web.archive.org/web/20210412232543/https://www.presstv.com/Detail/2021/04/12/649342/Iran-Zarif-war-crime-Natanz-JCPOA-US-UN">IRAN: Recent targeting of nuclear facilities ‘is a war crime’ </a></h2a>
+                <h2b><a class="a2" href="world_watch">[world_watch]</a></h2b>
+                <h4>Source: PressTV ~ PressTV | April 12, 2021</h4>
+                <h2a><a href="https://www.zerohedge.com/crypto/chinas-digital-yuan-comes-expiration-date">China's new digital money can expire BEFORE you use it </a></h2a>
+                <h2b><a class="a2" href="financial_watch">[financial_watch]</a></h2b>
+                <h4>Source: ZeroHedge ~ Tyler Durden | April 12, 2021</h4>
+                <h2a><a href="https://www.thelastamericanvagabond.com/michael-yeadon-interview-former-pfizer-vp-speaks-out-on-dangers-of-mrna-vaccines-covid-illusion/">Michael Yeadon Interview – Former Pfizer VP Speaks Out On Dangers Of mRNA Vaccines & COVID Illusion </a></h2a>
+                <h2b><a class="a2" href="covid_watch">[covid_watch]</a></h2b>
+                <h4>Source: The Last American Vagabond ~ Ryan Cristián | April 11, 2021</h4>
+                <h2a><a href="https://www.revolver.news/2021/04/corporate-overlords-assemble-to-plot-how-to-subvert-elected-officials/">Corporate overlords assemble to plot how to subvert elected officials… </a></h2a>
+                <h2b><a class="a2" href="elite_watch">[elite_watch]</a></h2b>
+                <h4>Source: Revolver News ~ Darren Beattie | April 11, 2021</h4>
+                <h2a><a href="https://arstechnica.com/?p=1755823">Ecological impacts of solar geoengineering are highly uncertain...Bill Gates is thus HIGHLY in favor </a></h2a>
+                <h2b><a class="a2" href="tech_watch">[tech_watch]</a></h2b>
+                <h4>Source: arsTECHNICA ~ Doug Johnson | April 11, 2021</h4>
+                <h2a><a href="https://populist.press/pentagon-confirms-leaked-footage-of-ufos-swarming-a-us-navy-destroyer-as-genuine/">Pentagon confirms leaked footage of UFOs swarming a US Navy destroyer as genuine </a></h2a>
+                <h2b><a class="a2" href="tech_watch">[tech_watch]</a></h2b>
+                <h4>Source: Populist Press ~ Populist Press | April 10, 2021</h4>
+                <h2a><a href="https://www.mintpressnews.com/bellingcat-intelligence-agencies-launders-talking-points-media/276603/">How Bellingcat Launders National Security State Talking Points into the Press </a></h2a>
+                <h2b><a class="a2" href="culture_watch">[culture_watch]</a></h2b>
+                <h4>Source: Mint Press News ~ Alan Macleod | April 9, 2021</h4>
+                <h2a><a href="https://www.sciencenews.org/article/covid-coronavirus-astrazeneca-vaccine-blood-clots-brain-rare-cases">AstraZeneca’s COVID-19 vaccine is tied to uncommon blood clots in rare cases </a></h2a>
+                <h2b><a class="a2" href="covid_watch">[covid_watch]</a></h2b>
+                <h4>Source: ScienceNews ~ Erin Garcia de Jesús | April 7, 2021</h4>
+                <h2a><a href="https://arstechnica.com/tech-policy/2021/04/how-the-supreme-court-saved-the-software-industry-from-api-copyrights/#p3">GOOGLE'S own GREED saves would be API copyright violators... for now </a></h2a>
+                <h2b><a class="a2" href="tech_watch">[tech_watch]</a></h2b>
+                <h4>Source: arsTECHNICA ~ Timothy B. Lee | April 6, 2021</h4>
+                <h2a><a href="https://www.mintpressnews.com/israel-masking-al-walaja-land-grabs-environmental-conservation/276441/">An Old Green Colonial Trick: Israel Masking Land Grabs as Environmental Conservation </a></h2a>
+                <h2b><a class="a2" href="world_watch">[world_watch]</a></h2b>
+                <h4>Source: Mint Press News ~ Jessica Buxbaum | March 26, 2021</h4>
 
-                    <h2a><a href="https://presstv.com/Detail/2021/04/12/649342/Iran-Zarif-war-crime-Natanz-JCPOA-US-UN">IRAN: Recent targeting of nuclear facilities ‘is a war crime’ </a></h2a>
-                    <h2b>
-                        <a class="a2" href="world_watch.html">[world_watch]</a>
-                    </h2b>
-                    <h4>Source: PressTV ~ PressTV</h4>
-                    
-                    <h2a><a href="https://www.technocracy.news/california-cafe-5-surcharge-for-wearing-a-mask/">CA Cafe Charging Customers $5 Extra For Wearing A Mask </a></h2a><h2b><a class="a2" href="covid_watch.html">[covid_19]</a></h2b><h4>Source: Technocracy News ~ Amy Furr</h4>
+            </div>
 
-    
-                </div>
-
-                <!-- SWEET SLIDER IF THAT'S WHAT YOU'RE IN TO 
+            <!-- SWEET SLIDER IF THAT'S WHAT YOU'RE IN TO 
     <div class="slider_area">
       <div class="slider">
         <ul class="bxslider">
@@ -287,12 +290,12 @@ function swapStyleSheet(sheet, headsheet, sheetlite, headsheetlite){
       </div>
     </div> -->
 
-                <!--  <div class="content_area">
+            <!--  <div class="content_area">
                     <div class="main_content floatleft">
                    <div class="left_coloum floatleft">
                         <div class="single_left_coloum_wrapper"> -->
 
-                <!--                           <h2 class="title">from around the world</h2>
+            <!--                           <h2 class="title">from around the world</h2>
                                 <a class="more" href="#">more</a>
                                 <div class="single_left_coloum floatleft"> <img src="images/single_featured.png" alt="" />
                                     <h3>Lorem ipsum dolor sit amet, consectetur</h3>
@@ -359,54 +362,58 @@ function swapStyleSheet(sheet, headsheet, sheetlite, headsheetlite){
                             </div> 
                         </div> 
                     </div>   -->
-                <div class="right_coloum floatright">
-                    <div class="single_right_coloum">
-                        <h2 class="title"><a href="covid_science.html">covid science</a></h2>
-                        <ul>
-                            <li>
-                                <div class="single_cat_right_content">
-                                    <h3>LOCKDOWNS DON'T WORK</h3>
-                                    <h4>SCIENTIFIC STUDY ~ Covid-19 Mortality: A Matter of Vulnerability Among Nations Facing Limited Margins of Adaptation</h4>
-                                    <h9>Frontiers in Public Health</h9>
-                                    <p>RESULTS: Stringency of the measures settled to fight pandemia, including lockdown, did not appear to be linked with death rate.</p>
-                                    <p class="single_cat_right_content_meta"><a href="https://www.frontiersin.org/articles/10.3389/fpubh.2020.604339/full"><span>read more</span></a> November 2020</p>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="single_cat_right_content">
-                                    <h3>MASKS DON'T WORK</h3>
-                                    <h4>SCIENTIFIC STUDY ~ Facemasks in the COVID-19 era: A health hypothesis
-                                    </h4>
-                                    <h9>ScienceDirect: Medical Hypotheses</h9>
-                                    <p>RESULTS: Although, scientific evidence supporting facemasks’ efficacy is lacking, adverse physiological, psychological and health effects are established.</p>
-                                    <p class="single_cat_right_content_meta"><a href="https://www.sciencedirect.com/science/article/pii/S0306987720333028"><span>read more</span></a> January 2021</p>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="single_cat_right_content">
-                                    <h3>SURFACES DON'T TRANSMIT</h3>
-                                    <h4>SCIENTIFIC STUDY ~ Science Brief: SARS-CoV-2 and Surface (Fomite) Transmission for Indoor Community Environments</h4>
-                                    <h9>Centers for Disease Control and Prevention (CDC)</h9>
-                                    <p>RESULTS: Findings of these studies suggest that the risk of SARS-CoV-2 infection via the fomite transmission route is low, and generally less than 1 in 10,000, which means that each contact with a contaminated surface has less than a 1 in 10,000 chance of causing an infection.</p>
-                                    <p class="single_cat_right_content_meta"><a href="https://www.cdc.gov/coronavirus/2019-ncov/more/science-and-research/surface-transmission.html"><span>read more</span></a> April 2021</p>
-                                </div>
-                            </li>
-                        </ul>
-                        <a class="popular_more" href="#">more</a>
+            <div class="right_coloum floatright">
+                <div class="single_right_coloum">
+                    <h2 class="title"><a href="covid_science.html">covid science</a></h2>
+                    <ul>
+                        <li>
+                            <div class="single_cat_right_content">
+                                <h3>LOCKDOWNS DON'T WORK</h3>
+                                <h4>SCIENTIFIC STUDY ~ Covid-19 Mortality: A Matter of Vulnerability Among Nations Facing Limited Margins of Adaptation</h4>
+                                <h9>Frontiers in Public Health</h9>
+                                <p>RESULTS: Stringency of the measures settled to fight pandemia, including lockdown, did not appear to be linked with death rate.</p>
+                                <p class="single_cat_right_content_meta"><a href="https://www.frontiersin.org/articles/10.3389/fpubh.2020.604339/full"><span>read more</span></a> November 2020</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="single_cat_right_content">
+                                <h3>MASKS DON'T WORK</h3>
+                                <h4>SCIENTIFIC STUDY ~ Facemasks in the COVID-19 era: A health hypothesis
+                                </h4>
+                                <h9>ScienceDirect: Medical Hypotheses</h9>
+                                <p>RESULTS: Although, scientific evidence supporting facemasks’ efficacy is lacking, adverse physiological, psychological and health effects are established.</p>
+                                <p class="single_cat_right_content_meta"><a href="https://www.sciencedirect.com/science/article/pii/S0306987720333028"><span>read more</span></a> January 2021</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="single_cat_right_content">
+                                <h3>SURFACES DON'T TRANSMIT</h3>
+                                <h4>SCIENTIFIC STUDY ~ Science Brief: SARS-CoV-2 and Surface (Fomite) Transmission for Indoor Community Environments</h4>
+                                <h9>Centers for Disease Control and Prevention (CDC)</h9>
+                                <p>RESULTS: Findings of these studies suggest that the risk of SARS-CoV-2 infection via the fomite transmission route is low, and generally less than 1 in 10,000, which means that each contact with a contaminated surface has less than a 1 in 10,000 chance of causing an infection.</p>
+                                <p class="single_cat_right_content_meta"><a href="https://www.cdc.gov/coronavirus/2019-ncov/more/science-and-research/surface-transmission.html"><span>read more</span></a> April 2021</p>
+                            </div>
+                        </li>
+                    </ul>
+                    <a class="popular_more" href="#">more</a>
+                </div>
+                <div class="single_right_coloum">
+                    <h2 class="title">editorial</h2>
+                    <h3><a href="editorials/rural-women-forcibly-jabbed-in-india.html">[VIDEO EVIDENCE] Nuremberg Likely Violated: Forced Injections have already Started</a></h3>
+                    <div class="single_cat_right_content editorial"> <img class="img3" src="editorials/rural-women-forcibly-jabbed-in-india_html_5907796abc2912ca.png" alt="" />
                     </div>
-                    <div class="single_right_coloum">
-                        <h2 class="title">editorial</h2>
-                        <div class="single_cat_right_content editorial"> <img class="img2" src="editorials/rural-women-forcibly-jabbed-in-india_html_5907796abc2912ca.png" alt="" />
-                            <h3><a href="editorials/rural-women-forcibly-jabbed-in-india.html">NUREMBERG VIOLATED: FORCED INJECTIONS HAVE ALREADY STARTED</a></h3>
-                        </div>
-                        <div class="single_cat_right_content editorial"> <img class="img2" src="editorials/kubler-ross.jpeg" alt="" />
-                            <h3><a href="editorials/five-stages-of-vaccine-grief.html">FIVE STAGES OF VACCINE GRIEF</a></h3>
-                        </div>
-                        <div class="single_cat_right_content editorial"> <img class="img2" src="/editorials/correlationmatrix_28-Apr-2021.png" alt="" />
-                            <h3><a href="/editorials/covid-report.html">Statistical Signicance of Correlations between Quantity of Government COVID-19 Mandates and Death Rates Worldwide</a></h3>
-                        </div>
-                        
-                                  <!-- TO ADD LATER WITH MORE EDITORIALS
+
+
+                    <h3><a href="editorials/five-stages-of-vaccine-grief.html">Five Stages of Vaccine Grief</a></h3>
+                </div>
+                <div class="single_cat_right_content editorial"> <img class="img3" src="editorials/kubler-ross.jpeg" alt="" />
+
+                    <h3><a href="/editorials/covid-report.html">Statistical Signicance of Correlations between Quantity of Government COVID-19 Mandates and Death Rates Worldwide</a></h3>
+                    <div class="single_cat_right_content editorial"> <img class="img3" src="/editorials/correlationmatrix_28-Apr-2021.png" alt="" />
+
+                    </div>
+
+                    <!-- TO ADD LATER WITH MORE EDITORIALS
                            <div class="single_cat_right_content editorial"> <img src="images/editorial_img.png" alt="" />
                             <h3>Lorem ipsum dolor sit amet con se cte tur adipiscing elit</h3>
                         </div>
@@ -418,11 +425,11 @@ function swapStyleSheet(sheet, headsheet, sheetlite, headsheetlite){
                             
                         
                         </div> -->
-                    </div>
                 </div>
-                <!-- IF YOU WANT A NEWSLETTER SIGNUP HOPEFLLY LATER
+            </div>
+            <!-- IF YOU WANT A NEWSLETTER SIGNUP HOPEFLLY LATER
 MAYBE i CAN JUST PUT A GOOLGE FORM HERE? -->
-                <!--        <div class="sidebar floatright">
+            <!--        <div class="sidebar floatright">
                         <div class="single_sidebar"> <img src="images/add1.png" alt="" /> </div> 
                         <div class="single_sidebar">
                             <div class="news-letter">
@@ -436,7 +443,7 @@ MAYBE i CAN JUST PUT A GOOLGE FORM HERE? -->
                                 <p class="news-letter-privacy">We do not spam. We value your privacy!</p>
                             </div>
                         </div> -->
-                <!-- IF YOU WANT A POPULAR FEED
+            <!-- IF YOU WANT A POPULAR FEED
                         <div class="single_sidebar">
                             <div class="popular">
                                 <h2 class="title">Popular</h2>
@@ -476,14 +483,14 @@ MAYBE i CAN JUST PUT A GOOLGE FORM HERE? -->
                             </div>
                         </div> -->
 
-            
+
         </div>
         <div class="content_area">
             <div class="aligncenter">
                 <div class="logo">
                     <p2>DONATE HERE</p2>
                     <p3>Please help me keep this hub of information online. Consider DONATING using any of the methods below:</p3>
-                    
+
                     <button2 class="btn" data-clipboard-text="bc1qap9tkh9dk8nf04cesahvj623qwqwmk5c4zmqrx" style="display: inline-block">Copy <img src="images/btc.svg" alt="Bitcoin Logo" /> Wallet Address </button2>
                     <p4>BTC: bc1qap9tkh9dk8nf04cesahvj623qwqwmk5c4zmqrx</p4>
 
@@ -518,9 +525,9 @@ MAYBE i CAN JUST PUT A GOOLGE FORM HERE? -->
 
                     <button2 class="btn" data-clipboard-text="cosmos1s7w4c3a8pzcm0dwdsq3sweunwvdz6s6sc6a8jy" style="display: inline-block">Copy <img src="images/atom.svg" alt="Bitcoin Logo" /> Wallet Address </button2>
                     <p4>ATOM: cosmos1s7w4c3a8pzcm0dwdsq3sweunwvdz6s6sc6a8jy</p4>
-                        
+
                     <button2 class="btn" data-clipboard-text="addr1q804eem8lun27vfezlhpvx98gpjqzyqv7udpsjvalcwlqvkltnnk0lex4ucnj9lwzcv2wsryqygqeac6rpyemlsa7qeq28p4jn" style="display: inline-block">Copy <img src="images/ada.svg" alt="Bitcoin Logo" /> Wallet Address </button2>
-                    <p4>ADA: addr1q804eem8lun27vfezlhpvx98gpjqzyqv7udpsjvalcwlqvkltnnk0lex4ucnj9lwzcv2wsryqygqeac6rpyemlsa7qeq28p4jn</p4>          
+                    <p4>ADA: addr1q804eem8lun27vfezlhpvx98gpjqzyqv7udpsjvalcwlqvkltnnk0lex4ucnj9lwzcv2wsryqygqeac6rpyemlsa7qeq28p4jn</p4>
                 </div>
             </div>
         </div>
@@ -540,7 +547,7 @@ MAYBE i CAN JUST PUT A GOOLGE FORM HERE? -->
                     <li><a href="recommended.html">recommended</a></li>
                     <li><a href="covid_watch.html">covid-19 watch</a></li>
                 </ul>
-            </div>  
+            </div>
             <div class="copyright_text">
                 <p5>Copyright &copy; 2021 The Vector. All rights reserved | Design by
                     <a class="a2" style="font-size: 1em" target="_blank" rel="nofollow" href="http://www.kylebeattie.dx.am">Kyle Beattie</a>
@@ -553,17 +560,17 @@ MAYBE i CAN JUST PUT A GOOLGE FORM HERE? -->
     <!-- THIS IS THE CODE FOR MY COPY CLIPBOARD BUTTONS -->
 
     <!-- 2. Include library -->
-     <script src="assets/js/clipboard.min.js"></script>
+    <script src="assets/js/clipboard.min.js"></script>
 
     <!-- 3. Instantiate clipboard by passing a string selector -->
-<script>
+    <script>
         var clipboard = new ClipboardJS('.btn');
 
         clipboard.on('success', function(e) {
             console.log(e);
             console.info('Text:', e.text);
             alert("Copied!");
-            
+
         });
 
         clipboard.on('error', function(e) {
@@ -571,8 +578,9 @@ MAYBE i CAN JUST PUT A GOOLGE FORM HERE? -->
             console.info('Text:', e.text);
             alert("Try Again");
         });
-    </script> 
-    
+
+    </script>
+
     <script type="text/javascript" src="assets/js/jquery-min.js"></script>
     <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="assets/js/jquery.bxslider.js"></script>
@@ -592,6 +600,7 @@ MAYBE i CAN JUST PUT A GOOLGE FORM HERE? -->
             mode: 'fade',
             captions: true
         });
+
     </script>
     <!--     </div> -->
 </body>
