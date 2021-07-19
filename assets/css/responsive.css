@@ -26,7 +26,7 @@
 
 @media only screen and (max-width: 767px) {
 a{color:#fff; text-decoration:none}
-a:hover, a:active, a:focus{text-decoration:underline; color:limegreen}
+a:hover, a:active, a:focus{text-decoration:underline; color:limegreen; target="_blank"}
 a2{color:#33a2a8; text-decoration:none; cursor: pointer; font-size: .6em}
 a2:hover, a2:active, a2:focus{text-decoration:underline; color:limegreen}
 .center{width:90%; padding:5%}
@@ -50,6 +50,7 @@ h9{color: #fff; font-size: .86em; word-wrap:break-word; display: block; padding:
 .single_cat_left_content{width:280px; margin-left:3px}
 .main_content{width:280px}
 .right_coloum{float:none; margin:0 auto; width:280px}
+    .right-coloum2{float:none; margin:0 auto; width:280px; overflow-y: scroll}
 .sidebar{float:none; margin:0 auto}
 .footer_top_area{padding:12px 0; width:280px}
 .inner_footer_top{width:250px}
@@ -81,7 +82,8 @@ h9{color: #fff; font-size: .86em; word-wrap:break-word; display: block; padding:
 .gallery img{margin-bottom:5px; margin-left:3px; width:134px}
 .single_cat_left_content{width:210px}
 .main_content{width:430px}
-.right_coloum{float:none; margin:0 auto; width:285px}
+.right_coloum{float:none; margin:0 auto; width:430px}
+     .right-coloum2{float:none; margin:0 auto; width:430px; overflow-y: scroll}
 .sidebar{float:none; margin:0 auto}
 .footer_top_area{padding:12px 0; width:430px}
 .inner_footer_top{width:350px}
