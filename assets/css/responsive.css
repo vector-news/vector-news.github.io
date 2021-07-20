@@ -37,6 +37,8 @@ h2b{font-size: 1.25em; line-height: 1.25em}
 h4{font-size: 1em; line-height: 1em}
 h7{color: limegreen; text-transform: uppercase; font-size: 1.25em; line-height: 1.25em; text-align: center; align-content: center}
 h9{color: #fff; font-size: .86em; word-wrap:break-word; display: block; padding: .5em}
+#rss1{display: none !important}
+#rss2{color: #fff; display: block !important}
 #selectnav1, #selectnav2{background:none repeat scroll 0 0 #000; border:medium none; color:#FFF; display:block; font-family:'Mate SC'; font-size:19px; height:40px; margin:10px auto 0; overflow:hidden; padding-top:11px; text-align:center; width:100%}
 .main_menu_area{min-height:45px}
 .logo{float:none; margin:15px auto 0px; width:250px}
@@ -71,6 +73,8 @@ h9{color: #fff; font-size: .86em; word-wrap:break-word; display: block; padding:
 #nav{display:none}
 #f_menu{display:none}
 #selectnav1, #selectnav2{background:none repeat scroll 0 0 #000; border:medium none; color:#FFF; display:block; font-family:'Mate SC'; font-size:19px; height:40px; margin:10px auto 0; overflow:hidden; padding-top:11px; text-align:center; width:100%}
+#rss1{display: none !important}
+#rss2{color: #fff; display: block !important}
 .main_menu_area{min-height:45px}
 .logo{float:none; margin:15px auto 0px; width:250px}
 .top_menu{float:none; margin:15px auto 10px; width:330px}
