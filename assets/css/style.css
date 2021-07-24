@@ -103,7 +103,7 @@ div{overflow:hidden}
 .slider1{width:670px}
 .slider2{width:250px}
 .content_area{margin-top:25px;}
-.main_content{width:670px; height: 2400px; overflow-y: scroll}
+.main_content{width:670px; height: 2500px; overflow-y: scroll}
 .fixed {
         position:fixed;
         width:100%;
