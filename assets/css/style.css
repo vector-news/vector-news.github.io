@@ -128,7 +128,7 @@ div{overflow:hidden}
 .single_cat_left_content_meta{font-size:11px}
 .single_cat_left_content_meta span{color:#33a2a8}
 .right_coloum{width:250px; float: right}
-.right_coloum2{width: 250px ;height:307px; overflow-y: scroll; float: right}
+.right_coloum2{width: 250px; height: 600px; overflow-y: scroll; float: right}
 .single_right_coloum{margin-bottom:20px}
 .single_right_coloum ul{margin:0; padding:0; list-style:square}
 .single_right_coloum ul li{border-bottom:1px dotted #ddd}
