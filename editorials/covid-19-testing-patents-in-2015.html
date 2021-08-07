@@ -1,0 +1,806 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<!-- PUT ALL OTHER CSS SHEETS HERE -->
+
+<head>
+    <title>Patents and COVID-19: Were There Patents Naming COVID-19 before 2020?</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="/assets/font/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="/assets/font/font.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&family=Forum&family=Mate+SC&display=swap" rel="stylesheet" />
+    <link id="pagestylelite" rel="stylesheet" type="text/css" href="/assets/css/style_lite.css" media="screen" />
+    <link id="headstylelite" rel="stylesheet" type="text/css" href="/assets/css/responsive_lite.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="/assets/css/bootstrap.min.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="/assets/css/jquery.bxslider.css" media="screen" />
+
+
+    <!-- COLOR MODE CHANGER -->
+
+    <!-- PUT YOUR STARTING CSS SHEET HERE -->
+    <link id="pagestyle" rel="stylesheet" type="text/css" href="/assets/css/style.css" />
+    <link id="headstyle" rel="stylesheet" type="text/css" href="/assets/css/responsive.css" media="screen" />
+
+
+    <!-- THIS IS THE FUNCTION -->
+    <script>
+        function swapStyleSheet(sheet, headsheet, sheetlite, headsheetlite) {
+            document.getElementById('pagestyle').setAttribute('href', sheet);
+            document.getElementById('headstyle').setAttribute('href', headsheet);
+            document.getElementById('pagestylelite').setAttribute('href', sheetlite);
+            document.getElementById('headstylelite').setAttribute('href', headsheetlite);
+        }
+
+    </script>
+</head>
+
+<!-- THESE ARE THE BUTTON LINKS -->
+
+<body>
+    <h9>Change Color Scheme</h9>
+    <button2 onclick="swapStyleSheet('/assets/css/style.css','/assets/css/responsive.css')">Dark Mode</button2>
+    <!-- IF I MAKE MORE STYLES I CAN PUT THEM HERE AS OTHER BUTTONS. <button onclick="swapStyleSheet('blue.css')">Blue Style Sheet</button> -->
+    <button onclick="swapStyleSheet('/assets/css/style_lite.css','/assets/css/responsive_lite.css')">Light Mode</button>
+</body>
+
+<!--  A DIFFERENT BUTTON CHOICE -->
+<script type="text/javascript">
+    function codespeedy() {
+        var print_div = document.getElementById("article");
+        var print_area = window.open();
+        print_area.document.write(print_div.innerHTML);
+        print_area.document.close();
+        print_area.focus();
+        print_area.print();
+        // This is the code print a particular div element
+    }
+
+</script>
+
+<!-- THIS IS THE BEGINNING OF THE PAGE -->
+
+<body>
+    <div class="body_wrapper">
+        <div class="center">
+            <div class="header_area">
+                <div class="logo">
+                    <a href="/index.html"><img class="img2" src="/images/logo%20(copy%2010).png" alt="" /></a>
+                </div>
+                <!--   <div class="logo2"><a href="#"><img src="images/Old-Watch.png" alt="" /></a></div> -->
+                <div class="top_menu float">
+                    <ul>
+                        <li><a href="/index.html">Home</a></li>
+                        <li><a href="/about.html">About</a></li>
+                        <li><a href="/contact.html">Contact us</a></li>
+                        <!-- <li><a href="#">Subscribe</a></li>
+          <li><a href="#">Login</a></li> -->
+                    </ul>
+                </div>
+            
+                <!-- SOCIAL MEDIA ADDITIONS GO HERE ONCE THEY ARE ESTABLISHED -->
+                <!--     <div class="social_plus_search floatright">
+        <div class="social">
+          <ul>
+            <li><a href="#" class="twitter"></a></li>
+            <li><a href="#" class="facebook"></a></li>
+            <li><a href="#" class="feed"></a></li>
+          </ul>
+        </div>
+        <div class="search">
+          <form action="#" method="post" id="search_form">
+            <input type="text" value="Search news" id="s" />
+            <input type="submit" id="searchform" value="search" />
+            <input type="hidden" value="post" name="post_type" />
+          </form>
+        </div>
+      </div>
+    </div> -->
+                <!-- PHP TESTING AREA -->
+                <div class="main_menu_area">
+                    <ul id="nav">
+                        <li><a href="/world_watch.html">world watch</a>
+                            <!--           <ul>
+                                <li><a href="#">Single item</a></li>
+                                <li><a href="#">Single item</a></li>
+                                <li><a href="#">Single item</a></li>
+                            </ul> -->
+                        </li>
+                        <li><a href="/elite_watch.html">elite watch</a>
+                            <!--       <ul>
+                                <li><a href="#">Single item</a></li>
+                                <li><a href="#">Single item</a></li>
+                                <li><a href="#">Single item</a></li>
+                            </ul> -->
+                        </li>
+                        <li><a href="/tech_watch.html">tech watch</a>
+                            <!--   THIS CAN ADD A DROPDOWN LIST OF ARTICLES
+                        HOW CAN I MAKE THESE UPDATE AUTOMATICALLY?
+
+                            <ul>
+                                <li><a href="#">Single item</a></li>
+                                <li><a href="#">Single item</a></li>
+                                <li><a href="#">Single item</a></li>
+                            </ul> -->
+                        </li>
+                        <li><a href="/financial_watch.html">financial watch</a>
+                            <!--          <ul>
+                                <li><a href="#">Single item</a></li>
+                                <li><a href="#">Single item</a></li>
+                                <li><a href="#">Single item</a></li>
+                            </ul> -->
+                        </li>
+                        <li><a href="/covid_watch.html">covid watch</a>
+                            <!--            <ul>
+                                <li><a href="#">Single item</a></li>
+                                <li><a href="#">Single item</a></li>
+                                <li><a href="#">Single item</a></li>
+                            </ul> -->
+                        </li>
+                        <li><a href="/culture_watch.html">culture watch</a>
+                            <!--            <ul>
+                                <li><a href="#">Single item</a></li>
+                                <li><a href="#">Single item</a></li>
+                                <li><a href="#">Single item</a></li>
+                            </ul> -->
+                        </li>
+                        <li><a href="/recommended.html">recommended</a>
+                            <!--        <ul>
+                                <li><a href="#">Single item</a></li>
+                                <li><a href="#">Single item</a></li>
+                                <li><a href="#">Single item</a></li>
+                            </ul> -->
+                        </li>
+                    </ul>
+                </div>
+               </div>
+         
+                <div id="article">
+                    <p2>Did Richard Rothschild file a Patent Application "for a System and Method for Testing for COVID-19" <strong>Before</strong> 2020? <br>-You be the Judge-</p2>
+                    <h4>Date: August 5th, 2021</h4>
+                    <p5>Author: Kyle Beattie</p5>
+
+                    <button onclick="codespeedy()"> Print Article</button>
+        <br><br>              
+        <img class="img4" src="nihcovidpatent.jpg" name="Image1" align="center" border="0" style="padding-right: 6em; padding-left: 1.5em" /> 
+
+
+                    <h5 style="padding-bottom: .5em; padding-top: 1em; !important padding-left: 1em; word-spacing: .25em; letter-spacing: .1em; width: 95%">Ever since Dr. David Martin began giving presentations explaining the history of patents behind coronavirus, SARS, Sars-CoV, and other related technologies as it relates to COVID-19, the Prior Patent Theory has been attacked by both the independent media and the mainstream.<br> <br>So what information is possible to confirm by Dr. David Martin? What have his detractors got right, and what have they got wrong? What parts of the Prior Patent Theory have strong evidence? What parts do not? Let’s take a dive into some of these debates.</h5>
+
+            </div>
+            <div id="article">
+                    <h3>The Patents</h3>
+                    <p5>Dr. David Martin has claimed over 100 patents as evidence for his theory. They are listed in their entirety on
+                        <a class="a4" target="_blank" target="_blank" href="https://www.m-cam.com/wp-content/uploads/2020/04/20200403_SARS_CoV_Patent_Corpus_Lit_Review.pdf">his website.</a> Anyone can go and look up these patents themselves at:
+                        <a class="a4" target="_blank" href="https://patents.google.com/">https://patents.google.com/</a>
+                    </p5>
+
+                    <p5>If you are unfamiliar with Dr. David Martin’s theory,
+                        <a class="a4" target="_blank" href="https://www.bitchute.com/video/TtW5WdcrLTYv/">please see his remarks to Dr. Reiner Fuellmich</a> below. <a class="a4" target="_blank" href="https://ourgreaterdestiny.org/wp-content/uploads/2020/10/Attorney-Reiner-Fuellmich-Crimes-Against-Humanity.pdf">Dr. Fuellmich</a> maintains that he has been part of the legal teams that participated in three major fraud investigations: <br><br>
+                        <li>Deutsche Bank, formerly one of the world's largest and most respected banks, today one of the most toxic criminal organizations in the world</li> 
+                        <li>VW, one of the world's largest and most respected car manufacturers, today notorious for its giant diesel fraud</li> 
+                        <li>Kuehne &amp; Nagel, the world´s largest shipping company, we're sueing them in a multi-million dollar bribery case</li> 
+                        <br>
+                        He is now taking accounts from expert witnesses worldwide on crimes against humanity related to the government’s planning and response to COVID-19.
+                    </p5>
+   
+                <iframe width="100%" height="600" scrolling="no" frameborder="0" style="border: none; padding-top: 1.5em; padding-bottom: 1em" src="https://www.bitchute.com/embed/TtW5WdcrLTYv/"></iframe>
+             <br><br>
+                <p5>Dr. David Martin Presents Evidence of the Prior Patent Theory to international lawyer Dr. Reiner Fuellmich and team [click above to watch interview]</p5>        
+                    
+                    <h3 style="padding-top: 1em">Analysis of Arguments against Dr. Martin by McGill University, Reuters, and the Truth Community</h3>
+                    <h4>McGill University</h4>
+                    <p5>
+                        <a class="a4" target="_blank" href="https://www.mcgill.ca/oss/article/covid-19-pseudoscience/patently-false-disinformation-over-coronavirus-patents">The argument of the author from McGill University</a>, Johnathn Jarry, consists in the potential to conflate the terms “coronavirus”, “SARS”, “MERS”, and “Sars-CoV-1”, with the terms “COVID-19” and “SARS-CoV-2”. The author is correct in that indeed there are many technologies that were invented before the supposed discovery of SARS-CoV-2 or its associated disease COVID-19 that could contain the first terms listed here. As the author states, “coronavirus” is not a word that only applies to the agent behind COVID-19. Coronaviruses are a subfamily in the grand classification of viruses. They include our current enemy, SARS-CoV-2, but also a different coronavirus that caused SARS nearly twenty years ago, and the coronavirus that produces the Middle Eastern Respiratory Syndrome (MERS)” (Johnathan Jarry, 2020). This is correct and we should recognize the possibility of confusing terms in this way.</p5>
+
+                    <h4 style="padding-top: 1em">Refuation</h4>
+                    <p5>This article unfortunately fails to address the most important patent: <strong>Patent No. US-2020279585-A1</strong>:
+                        <a class="a4" target="_blank" href="https://pubchem.ncbi.nlm.nih.gov/patent/US-2020279585-A1">https://pubchem.ncbi.nlm.nih.gov/patent/US-2020279585-A1</a>, which is a Provisional Application for a <strong>“System and Method for Testing for COVID-19”</strong> by the Inventor Richard A. Rothschild with a Priority Date of October 13, 2015. This is
+                        <a class="a4" target="_blank" href="https://pubchem.ncbi.nlm.nih.gov/patent/US-2020279585-A1#section=Important-Dates">almost five years</a> <strong>before</strong> the term “COVID-19” was ever "officialy invented"!<br><br>
+                        While the patented origins of the virus itself might be up for debate, this Provisional Application cannot be claimed to have language referring to other coronavirus technology in it because it says “COVID-19” quite explicitly. I detail the history of the term “COVID-19” below.</p5>
+
+                    <p5>If the links above to this patent do not work at some point in the future,
+                        <a class="a4" target="_blank" href="https://web.archive.org/web/20210803182918/https://pubchem.ncbi.nlm.nih.gov/patent/US-2020279585-A1">I along with others have saved various captured versions of this web page on the Wayback Machine. </a>
+                    </p5>
+
+                    <h4 style="padding-top: 1em">Criticism</h4>
+                    <p5>Unfortunately, due to many historical and modern factors, few academics are willing to be skeptical of the mainstream narrative and are all too willing to defend that narrative, especially when it suits their career options. This same problem occurred in the collapsing Soviet Union. For more on this damaging phenomena please read
+                        <a class="a4" target="_blank" href="https://link.springer.com/article/10.1007/s12115-017-0191-0">Alexander Riley’s piece on the work of Paul Hollander:</a>
+                    </p5>
+                    <br>
+                    <br>
+                    <blockquote>“The mainstream view of intellectuals, present in commentators as different as Karl Mannheim and Edward Said, as “special custodians of values like reason and justice” (Hollander 2017:4) must be revised in light of the tremendous body of evidence in Hollander’s work. We must regain a skeptical perspective on the structural position and experiential predilections of the intellectuals, given the propensity of a significant minority of the class to fall into the kind of distorted, dangerous thinking and practice described in these books. To be sure, they may sometimes achieve reasonableness and justice, but they are also perfectly capable of the most stunning anti-realism, and they evince an overwhelming urge to assert themselves without evidence as high priests to whom others should defer that works in concert with their base desire for status and power” (Riley, 2017).</blockquote>
+
+                    <h4 style="padding-top: 1em">Reuters</h4>
+                    <p5>
+                        <a class="a4" target="_blank" href="https://www.reuters.com/article/uk-factcheck-patent-idUSKBN27C34O">Reuters did address the patent with the term “COVID-19” in its name.</a> Unfortunately, they failed to explain why a provisional application was filed in 2015 with that name. They state, “The article claims that the 2015 priority date is evidence that the coronavirus pandemic has been planned. But the author has conflated the terms “priority date” and “application date”. The priority date can refer to the earliest filing date in a family of related patent applications, or to the earliest filing date of a particular feature of an invention. In this case, Oct. 13, 2015 is when Rothschild first made a provisional application within this family of patents...A series of regular, non-provisional patent applications were subsequently made for a “System and Method For Using, Processing, and Displaying Biometric Data”. These earlier patents are essentially the predecessors to ‘US20200279585A1’ - and as such share similar features, such as the use of biometric data (here). However, the patent for a system that analyses biometric data to determine whether the user is suffering from COVID-19 was not applied for until May 17, 2020...VERDICT: False. <strong>The year 2015 was when Rothschild first filed a provisional application within the family of patents. The year 2017 is the filing date of a related, but separate patent within the family.</strong> (emphasis added)”
+                        <br>
+                        <br>
+                        Reuters argument in a nutshell:
+                    <li>(1) the name “COVID-19” only appears in the May, 17 2020 application not in any application previous to 2020</li>
+                    <li>(2) the previous applications are simply in the same “family”, but not related to COVID-19</li>
+                    </p5>
+
+                    <h4 style="padding-top: 1em">Refuation</h4>
+                    <p5>Reuters is demonstrably wrong on this one, as can be by
+                        <a class="a4" target="_blank" href="https://pubchem.ncbi.nlm.nih.gov/patent/US-2020279585-A1">the title of this invention</a>, which contains the word “COVID-19” in the year 2015 not 2020. The only way Reuters could be correct is if the patent document we are looking at had its title changed <strong>after 2020</strong> once COVID-19 was known of generally. Logistically, that is the only way that term could appear on a 2015 document erroneously. But why would they go back and change old records? Isn't that the point of records?
+                        <br>
+                        <br> Instead of asking these obvious questions, Reuters attempts to conflate many of the other inventions Richard A. Rothschild has invented with his system for testing COVID-19. Thus, that date in 2015 is the crucial point of debate here. Instead of really addressing the issue, Reuters goes on to fill the other half of their article with unnecessary discussion of the patent since September 2020 and the “family” of other systems inventions Mr. Rothschild has filed. This is irrelevant to the conversation and is a form of red herring fallacy.
+                        <br>
+                        <br>The people want answers to the following questions:
+                        <br>
+                        <li>(1) what is a Provisional Application?</li>
+                        <li>(2) why was there one filed with the term “COVID-19” in its title <strong>before</strong> 2020?</li>
+                        <li>(3) who is this inventor Mr. Richard A. Rothschild? </li>
+                        <br>These questions are answered in the following section.</p5>
+
+                    <h4 style="padding-top: 1em">Critcism</h4>
+                    <p5>Between 9/11, WMDs in Iraq, ISIS, Trump-Russia Collusion, COVID-19, and the obviously stolen 2020 election, the mainstream media has lost much credibility with the public. However, for those still halfway believing they have your best interests at heart when they report the “news” or for those just waking up to the fact that the mainstream media can be liars and manipulators of information, I will provide you some resources to understand how the mainstream media operates:
+                        <br>
+                        <br>
+                        <strong>A seminal work on modern media manipulation:</strong>
+                        <a class="a4" target="_blank" href="http://people.morrisville.edu/~reymers/readings/soci201/chomsky-manufacturing_consent-excerpt.pdf">Manufacturing Consent A Propaganda Model excerpted from the book Manufacturing Consent by Edward S. Herman and Noam Chomsky Pantheon Books, 1988</a>
+                        <br>
+                        <br>
+                        <strong>A scholarly article on how politicians lie along with the media:</strong>
+                        <a class="a4" target="_blank" href="https://onlinelibrary.wiley.com/doi/pdf/10.1111/j.1741-5705.2007.02617.x?casa_token=pwhSJfrjXfAAAAAA:n5r3VfneqbietlQe3l5eoIRR5YO2fTAiiZwHWO133NFNTFy0XE4FhtY9JFNeT8aoh16Y2NE_Arw3Kdk">Kellner, D. (2007). Bushspeak and the politics of lying: presidential rhetoric in the “war on terror”. Presidential Studies Quarterly, 37(4), 622-645.</a>
+                        <br>
+                        <br>
+
+                        <strong>A detailed work on media manipulation from within the Truth community:</strong>
+                        <a class="a4" target="_blank" href="https://books.google.ca/books?hl=en&lr=&id=usc8DwAAQBAJ&oi=fnd&pg=PT3&dq=mainstream+media+liars&ots=CNB7gxvk5f&sig=F_FWpnUEi4isekt6KQqqHNQwgPo&redir_esc=y#v=onepage&q=mainstream%20media%20liars&f=false">Dice, M. (2017). The true story of fake news: How mainstream media manipulates millions. Mark Dice.</a>
+
+
+                        <br>
+                        <br>
+
+                        <strong>I would also recommend brushing up on some Glenn Greenwald :</strong>
+                        <a class="a4" target="_blank" href="https://greenwald.substack.com/ ">Glenn Greenwald's Substack</a>
+                        <br>
+                        <br> As Donna Laframboise brilliantly
+                        <a class="a4" target="_blank" href="https://nofrakkingconsensus.com/2021/03/22/glenn-greenwald-clobbers-the-mainstream-media/ ">details:</a>
+                    </p5>
+                    <br>
+                    <br>
+                    <blockquote>“Anyone who still imagines that mainstream news outlets are trustworthy needs to spend a few hours reading Greenwald. Any young person dreaming of becoming a journalist needs to familiarize themselves with the terrain he describes. In his words, ‘modern media outlets do not air dissent; they quash it.’ Rather than being curious about the world, journalists are now “desperate not to know” about any facts that might cast people and political movements they support in a negative light. Greenwald demonstrates how reporters, en masse, recently went to extraordinary lengths to bury and ignore inconvenient events, even though a national election was mere days away. Incredibly, these same journalists then have the chutzpah to complain society is awash in fake news. Greenwald doesn’t beat around the bush: ‘It is the mainstream U.S. media itself that deceives, propagandizes and spreads disinformation…far more than any other faction or entity” (Laframboise, 2021).</blockquote>
+
+                    <h4 style="padding-top: 1em">Independent Media</h4>
+                    <p5>From the non-mainstream perspective, Dr. David Martin isn’t considered suspicious because he is too far outside the system as the mainstream might portray, but rather that he is too closely tied to the system to ever tell the truth. Investigators within the Truth Community have noted the symbolism of his website MCAM’s logo. They are correct about the uncanny resemblance to Masonic symbology, which is unmistakable to the trained eye.</p5>
+
+                
+                    <img class="img4" src="mcam.png" name="Image1" align="center" border="0" style="padding-right: 1.5em" />
+                
+                <div style="float: none">
+                    <h4 style="padding-top: 1em">Refutation</h4>
+                    <p5>In addition to his company logo, I would also add the obvious compass hanging to his right in his video above. While it is likely he is a Freemason based on this clear symbolism, no one has produced <strong>absolute proof</strong> he is a Freemason, such as a statement from him or a public list of some sort. And even if he was, does that make the information he has presented any less valid? Many of America’s Founding Fathers were also Freemasons. Were their ideas good or not? Some were, some weren’t. As we cannot be sure as to the loyalties of most anyone, <strong>I try to judge information, not people. Therefore, let’s consider the information available.</strong></p5>
+</div>
+                    <h4 style="padding-top: 1em">Criticism</h4>
+                    <p5>A problem within the independent media sometimes is ironically the same problem as the mainstream outlets of media and academia: a hyper obsession about <em>who</em> someone is rather than <em>what</em> information they have presented. While there are good reasons to be skeptical of certain individuals <em>(like the Rothschild banking family as detailed below)</em>, it should not be because of who they are, but rather because of what actions they have taken or what information they have presented. Members of the Truth community need to get better at evaluating information for information’s sake and leave the semiotics <em>(the study of symbols)</em> discussion for a separate debate. One debate is about historical facts of patent applications and the language used, and another is about potential connections to secretive groups. The conversations should be distinguished in my opinion.</p5>
+
+                    <h3>Let’s Take a Deep Dive into the Questions the “Fact-Checkers” didn’t Inform Us About</h3>       
+                    <h4 style="padding-top: 1em">1.What is the Provisional Patent Application Mr. Rothschild filed?</h4>
+                    <p5>
+                        <a class="a4" target="_blank" href="https://www.uspto.gov/patents/basics/types-patent-applications/provisional-application-patent">According to the United States Patent Office (USPTO)</a>, a Provisional Application is for a Provisional Patent. “A provisional patent application allows you to file without a formal patent claim, oath or declaration, or any information disclosure (prior art) statement.... A provisional application for patent (provisional application) is a U.S. national application filed in the USPTO under 35 U.S.C. §111(b). A provisional application provides the means to establish an early effective filing date in a later filed nonprovisional patent application filed under 35 U.S.C. §111(a). It also allows the term "Patent Pending" to be applied in connection with the description of the invention.” <strong>That means it serves the purpose of establishing that you have thought of an idea before anyone else even though you cannot prove that the idea is functioning just yet.</strong> It is a way of paving the road for future fully-patentable inventions, but still lay claim to the immaterial idea before the material concept is brought into full functionality.
+                        <br>
+                        <br>
+
+
+                        <a class="a4" target="_blank" href="https://www.uspto.gov/patents/apply/forms/forms-patent-applications-filed-or-after-september-16-2012">In order to submit a Provisional Patent Application one should submit the form SB/16.</a> In addition to drawings of the invention that are requested, but not required, the USPTO states, “To be complete, a provisional application must also include the filing fee as set forth in 37 CFR 1.16(d) and a cover sheet* identifying:
+                        <br>
+                        <br>
+                        <li>the application as a provisional application for patent;</li>
+                        <li>the name(s) of all inventors; inventor residence(s);</li>
+                        <li><strong>title of the invention</strong> (emphasis added);</li>
+                        <li>name and registration number of attorney or agent and docket number (if applicable);</li>
+                        <li>correspondence address;</li>
+                        <li>and any U.S. Government agency that has a property interest in the application.”</li>
+                        <br> One key item that is listed here is the “title of the invention”, which must be declared when the Provisional Application is filed.
+                        <br><br> According to the
+                        <a class="a4" target="_blank" href="https://pubchem.ncbi.nlm.nih.gov/patent/US-2020279585-A1">National Institute of Health (NIH), the title of this invention when it was filed on October 13, 2015 was “System and Method for Testing for COVID-19” </a>. This means that whoever the inventor of this technology is, <strong>Richard A. Rothschild in this case, must have thought of this idea before “COVID”-19 was ever named as such publicly</strong> otherwise he would not have been able to name his invention as such.
+                        <br>
+                        <br>
+                    </p5>
+
+                    <a class="a4" target="_blank" href="https://www.uspto.gov/sites/default/files/documents/ProvisionalSB.pdf">Here is a link to the Web-Version Provisional Application Form SB/16</a>
+                    <br>
+                    <br>
+                    <a class="a4" target="_blank" href="https://www.uspto.gov/patents-getting-started/patent-basics/types-patent-applications/provisional-application-patent">Here is a link to the Instruction Guide to fill out the Provisional Application Form SB/16</a>
+                    <br>
+                    <br>
+
+                    <a class="a4" target="_blank" href="https://www.uspto.gov/sites/default/files/documents/sb0016.pdf">Here is a link to the Cover Sheet for the Provisional Application Form SB/16</a>
+
+                    <h4 style="padding-top: 1em">2. Why was the term “COVID-19” used in the title of this patent before 2020?</h4>
+                    <p5>
+                        Form a linguistic perspective all words have origins and these origins can often be tracked much like an evolutionary tree. The study of word origins is called etymology. So let’s see what Etymonline, the Online Etymology Dictionary, has to say about these terms. COVID-19 is not listed, but
+                        <a class="a4" target="_blank" href="https://www.etymonline.com/word/coronavirus#etymonline_v_54794">there is an entry for the prefix “covid” within the “coronavirus” entry.</a> It reads as follows:
+                        <br>
+                        <br>
+                    </p5>
+                        <blockquote>“<strong>Covid</strong> as a contraction of coronavirus disease seems to have been coined for the outbreak that began in China in 2019 (COVID-19).” </blockquote>
+<p5>
+                        Although etymology is not always accurate, this means the word was not publicly in use until at least 2019.
+                        <br>
+                        <br> Officially,
+                        <a class="a4" target="_blank" href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019/technical-guidance/naming-the-coronavirus-disease-(covid-2019)-and-the-virus-that-causes-it">the term was coined by the World Health Organization (WHO) on February 11, 2020</a>: “WHO announced “COVID-19” as the name of this new disease on 11 February 2020, following guidelines previously developed with the World Organisation for Animal Health (OIE) and the Food and Agriculture Organization of the United Nations (FAO).”
+                        <br>
+                        <br> Even more confusing,
+                        <a class="a4" target="_blank" href="https://www.nature.com/articles/s41564-020-0695-z">according to the journal Nature</a>, the disease that causes COVID-19 is called “SARS-CoV-2”, but was only renamed as such in late 2019. Prior to this it had been known as “2019-nCoV.” The article explains how important naming conventions are and how the WHO’s designation of the disease as “coronavirus disease 19” was in order to separate it from the virus SARS-CoV-2 to avoid the problem that occurred previously, “...of confusing virus and disease, as has been the case over many years with SARS-CoV (the virus) and SARS (the disease)”.
+                        <br>
+                        <br>
+
+                        <strong>Among this naming confusion, Richard A. Rothschild was able to choose the right title for his Provisional Patent Application in 2015</strong>, even though the WHO, virologists, and the “Coronaviridae Study Group (CSG), a working group of the ICTV”, were still debating over the name and whether SARS-CoV-2 constituted a substantially different enough variation of the previously known SARS-CoV-1. He was even able to name the disease (COVID-19) caused by the as of yet unknown and unnamed virus SARS-CoV-2. Pretty impressive prediction capabilities indeed.
+                        <br>
+                        <br>
+
+                        <strong>So how did Mr. Rothschild know to title an invention for a term that hadn’t been invented yet?</strong> How did that happen? Let’s have a look at Mr. Richard A. Rothschild.
+                    </p5>
+
+                    <h4 style="padding-top: 1em">3. Who is the Listed Inventor, Richard A. Rothschild?</h4>
+
+                    <p5>
+
+                        <a class="a4" target="_blank" href="https://patents.justia.com/inventor/richard-a-rothschild">According to Justia Patents</a>, Mr. Rothschild has filed 25 patents since 2009 consisting mostly in “systems” that one could imagine might be used for the design and implementation of a bio-security state. What kind of patents? Things like automatic personalized advertisement generators based on your biometric data, systems to process, analyze, and display your biometric data as well as to determine the “State of a User”, and a “System and method for testing for COVID-19". That is where the trail ends unfortunately. The only Richard A. Rothschild one will find publicly is
+                        <a class="a4" target="_blank" href="https://www.pli.edu/faculty/richard-a.-rothschild-19643">The Director of Litigation at the Western Center on Law &amp; Poverty</a>. While, this could be the same Mr. Rothschild filing patents, he does not seem to have the requisite computer and systems knowledge to be able to invent a “System and Method for Testing for COVID-19” in 2015.
+                        <br>
+                        <br> When most informed people hear the name Rothschild, they think of the overly wealthy and overly powerful Rothschild banking dynasty out of Europe. You would be forgiven. While they do stand to benefit immensely from the Great Reset now being propagated “due to COVID-19”, whether this Richard A. Rothschild is related to the same international banking dynasty is yet to be established and would be an excellent topic for deeper research. <br><br>
+                        Now that it has been established beyond a reasonable doubt that <strong>Mr. Rothschild was the named inventor of a “System and Method for Testing for COVID-19” in 2015</strong>, perhaps there will be more public energy behind finding who this person is. <br><br>
+                        Presently, we await the potential public reveal of
+                        <a class="a4" target="_blank" href="https://pubchem.ncbi.nlm.nih.gov/patent/US-2020279585-A1">Richard A. Rothschild, the inventor behind the “System and Method for Testing for COVID-19”</a> that had its Provisional Patent Application filed on October 13, 2015.
+                        <br>
+                        <br> This story’s ending is thus left unwritten... for now.
+                        <br>
+                        <br> Come out, come out, wherever you are Mr. Rothschild. We all want to get to know the prophetic inventor.
+
+                    </p5>
+
+
+
+
+
+
+                </div>
+
+                <!--            <div class="main_content floatleft">
+   
+                    
+                    
+                    <!-- USE THIS FOR ALERTS IF NECESSARY
+                    
+<p2>alert! alert! alert! they are shutting down the web!!!</p2>
+-->
+
+                <!--     
+                    
+                    <h1 class="title">RECENT NEWS</h1>
+
+                    <!-- ADD ALL NEW ARTICLES HERE RIGHT ON TOP. WHEN THE LIST GETS TOO FULL, MAYBE MORE THAN 30 OR 40, START ARCHIVING FROM THE BOTTOM IN EACH OF THE DIFFERENT WATCH PAGES. SET UP MORE WATCH PAGES AS NECESSARY.-->
+                <!--                 
+                    <h2a><a href="http://rss.slashdot.org/~r/Slashdot/slashdot/~3/AqDsO_VVtdQ/bank-of-england-to-consider-digital-money-plan">Bank of England To Consider Digital Money Plan </a></h2a><h2b><a2 href="financial_watch">[financial_watch]</a2></h2b><h4a>Source: Slashdot ~ msdash</h4>
+                    
+                    <h2a><a href="https://www.mintpressnews.com/israel-masking-al-walaja-land-grabs-environmental-conservation/276441/">An Old Green Colonial Trick: Israel Disguising Land Grabs as Environmental Conservation </a></h2a>
+                    <h2b>
+                        <a2 href="empire_watch">[empire_watch]</a2>
+                    </h2b>
+                    <h4a>Source: Mint Press News ~ Jessica Buxbaum</h4>
+                    <h2a><a href="https://www.mintpressnews.com/bellingcat-intelligence-agencies-launders-talking-points-media/276603/">How Bellingcat Launders National Security State Talking Points into the Press </a></h2a>
+                    <h2b>
+                        <a2 href="propaganda_watch">[propaganda_watch]</a2>
+                    </h2b>
+                    <h4a>Source: Mint Press News ~ Alan Macleod</h4>
+                    <h2a><a href="https://www.zerohedge.com/crypto/chinas-digital-yuan-comes-expiration-date">China's new digital money can expire BEFORE you use it </a></h2a>
+                    <h2b>
+                        <a2 href="financial_watch">[financial_watch]</a2>
+                    </h2b>
+                    <h4a>Source: ZeroHedge ~ Tyler Durden</h4>
+
+                    <h2a><a href="https://www.thelastamericanvagabond.com/michael-yeadon-interview-former-pfizer-vp-speaks-out-on-dangers-of-mrna-vaccines-covid-illusion/">Michael Yeadon Interview – Former Pfizer VP Speaks Out On Dangers Of mRNA Vaccines and COVID Illusion </a></h2a>
+                    <h2b>
+                        <a2 href="covid_19">[covid_19]</a2>
+                    </h2b>
+                    <h4a>Source: The Last American Vagabond ~ Ryan Cristián</h4>
+                    <h2a><a href="https://www.revolver.news/2021/04/corporate-overlords-assemble-to-plot-how-to-subvert-elected-officials/">Corporate overlords assemble to plot how to subvert elected officials… </a></h2a>
+                    <h2b>
+                        <a2 href="elite_watch">[elite_watch]</a2>
+                    </h2b>
+                    <h4a>Source: Revolver News ~ Darren Beattie</h4>
+                    <h2a><a href="https://www.theepochtimes.com/arizona-governor-signs-bill-banning-private-donations-for-election-processes_3771846.html">Arizona Governor Signs Bill Banning Private Donations for Election Processes </a></h2a>
+                    <h2b>
+                        <a2 href="gov_watch">[gov_watch]</a2>
+                    </h2b>
+                    <h4a>Source: Epoch Times ~ Isabel van Brugen</h4>
+                    <h2a><a href="https://www.theepochtimes.com/biden-to-meet-with-bipartisan-group-of-lawmakers-about-infrastructure-proposal_3771939.html">The Uniparty is Back! Biden, RINOS meet for an infrastructure bacon breakfast of pure pork </a></h2a>
+                    <h2b>
+                        <a2 href="gov_watch">[gov_watch]</a2>
+                    </h2b>
+                    <h4a>Source: Epoch Times ~ Zachary Stieber</h4>
+                    <h2a><a href="https://www.theepochtimes.com/three-covid-19-deaths-reported-among-those-vaccinated-in-oregon-officials_3772114.html">Three COVID-19 Deaths Reported Among Those Vaccinated in Oregon: Officials </a></h2a>
+                    <h2b>
+                        <a2 href="covid_19">[covid_19]</a2>
+                    </h2b>
+                    <h4a>Source: Epoch Times ~ Jack Phillips</h4>
+                    <h2a><a href="https://www.infowars.com/posts/woman-details-severe-covid-vaccine-reaction-within-minutes-i-knew-i-was-going-to-pass-out">Woman Details Severe COVID Vaccine Reaction – “Within Minutes I Knew I Was Going To Pass Out” </a></h2a>
+                    <h2b>
+                        <a2 href="covid_19">[covid_19]</a2>
+                    </h2b>
+                    <h4a>Source: InfoWars ~ Kelen McBreen</h4>
+                    <h2a><a href="https://www.infowars.com/posts/netherlands-man-dies-minutes-after-receiving-pfizer-vaccine">Netherlands: Man Dies Minutes After Receiving Pfizer Vaccine </a></h2a>
+                    <h2b>
+                        <a2 href="covid_19">[covid_19]</a2>
+                    </h2b>
+                    <h4a>Source: InfoWars ~ Dan Lyman</h4>
+                    <h2a><a href="https://www.infowars.com/posts/netherlands-man-dies-minutes-after-receiving-pfizer-vaccine">CONFUSION: Hundreds Testing Positive for Covid After Being Fully Vaccinated </a></h2a>
+                    <h2b>
+                        <a2 href="covid_19">[covid_19]</a2>
+                    </h2b>
+                    <h4a>Source: InfoWars ~ Adan Salazar</h4>
+                    <h2a><a href="https://www.sciencenews.org/article/coronavirus-covid-ppe-trash-masks-gloves-pollution-deadly-wildlife">Penguins ingesting MASKS, Octopi hiding under them, and Hedgehogs trapped in GLOVES: These are the enivronmental hazards caused by your neurotic desire to prevent any and all disease from touching your immune system </a></h2a>
+                    <h2b>
+                        <a2 href="covid_19">[covid_19]</a2>
+                    </h2b>
+                    <h4a>Source: ScienceNews ~ Anne Pinto-Rodrigues</h4>
+                    <h2a><a href="https://www.sciencenews.org/article/covid-coronavirus-astrazeneca-vaccine-blood-clots-brain-rare-cases">AstraZeneca’s COVID-19 vaccine is tied to uncommon blood clots in rare cases </a></h2a>
+                    <h2b>
+                        <a2 href="covid_19">[covid_19]</a2>
+                    </h2b>
+                    <h4a>Source: ScienceNews ~ Erin Garcia de Jesús</h4>
+                    <h2a><a href="https://yro.slashdot.org/story/21/04/12/214203/kraken-ceo-warns-a-crackdown-on-cryptocurrencies-may-be-coming?utm_source=rss1.0moreanon&utm_medium=feed">Kraken CEO Warns a Crackdown On Cryptocurrencies May Be Coming </a></h2a>
+                    <h2b>
+                        <a2 href="financial_watch">[financial_watch]</a2>
+                    </h2b>
+                    <h4a>Source: Slashdot ~ BeauHD</h4>
+                    <h2a><a href="https://www.infowars.com/posts/woman-details-severe-covid-vaccine-reaction-within-minutes-i-knew-i-was-going-to-pass-out">Clarence Thomas blasts Section 230, wants “common-carrier” rules on Twitter </a></h2a>
+                    <h2b>
+                        <a2 href="tech_watch">[tech_watch]</a2>
+                    </h2b>
+                    <h4a>Source: arsTECHNICA ~ Jon Brodkin</h4>
+                    <h2a><a href="https://arstechnica.com/tech-policy/2021/04/how-the-supreme-court-saved-the-software-industry-from-api-copyrights/#p3">GOOGLE'S own GREED saves would be API copyright violators... for now </a></h2a>
+                    <h2b>
+                        <a2 href="tech_watch">[tech_watch]</a2>
+                    </h2b>
+                    <h4a>Source: arsTECHNICA ~ Timothy B. Lee</h4>
+                    <h2a><a href="https://arstechnica.com/?p=1755823">Ecological impacts of solar geoengineering are highly uncertain...Bill Gates is thus HIGHLY in favor </a></h2a>
+                    <h2b>
+                        <a2 href="enviro_watch">[enviro_watch]</a2>
+                    </h2b>
+                    <h4a>Source: arsTECHNICA ~ Doug Johnson</h4>
+                    <h2a><a href="https://populist.press/pentagon-confirms-leaked-footage-of-ufos-swarming-a-us-navy-destroyer-as-genuine/">Pentagon confirms leaked footage of UFOs swarming a US Navy destroyer as genuine </a></h2a>
+                    <h2b>
+                        <a2 href="tech_watch">[tech_watch]</a2>
+                    </h2b>
+                    <h4a>Source: Populist Press ~ Populist Press</h4>
+
+                    <h2a><a href="https://presstv.com/Detail/2021/04/12/649342/Iran-Zarif-war-crime-Natanz-JCPOA-US-UN">IRAN: Recent targeting of nuclear facilities ‘is a war crime’ </a></h2a>
+                    <h2b>
+                        <a2 href="world_watch">[world_watch]</a2>
+                    </h2b>
+                    <h4a>Source: PressTV ~ PressTV</h4>
+
+
+                </div>
+
+                <!-- SWEET SLIDER IF THAT'S WHAT YOU'RE IN TO 
+    <div class="slider_area">
+      <div class="slider">
+        <ul class="bxslider">
+          <li><img src="images/1.jpg" alt="" title="Slider caption text" /></li>
+          <li><img src="images/2.jpg" alt="" title="Slider caption text" /></li>
+          <li><img src="images/3.jpg" alt="" title="Slider caption text" /></li>
+        </ul>
+      </div>
+    </div> -->
+
+                <!--  <div class="content_area">
+                    <div class="main_content floatleft">
+                   <div class="left_coloum floatleft">
+                        <div class="single_left_coloum_wrapper"> -->
+
+                <!--                           <h2 class="title">from around the world</h2>
+                                <a class="more" href="#">more</a>
+                                <div class="single_left_coloum floatleft"> <img src="images/single_featured.png" alt="" />
+                                    <h3>Lorem ipsum dolor sit amet, consectetur</h3>
+                                    <p>Nulla quis lorem neque, mattis venenatis lectus. In interdum ullamcorper dolor eu mattis.</p>
+                                    <a class="readmore" href="#">read more</a>
+                                </div>
+                                <div class="single_left_coloum floatleft"> <img src="images/single_featured.png" alt="" />
+                                    <h3>Lorem ipsum dolor sit amet, consectetur</h3>
+                                    <p>Nulla quis lorem neque, mattis venenatis lectus. In interdum ullamcorper dolor eu mattis.</p>
+                                    <a class="readmore" href="#">read more</a>
+                                </div>
+                                <div class="single_left_coloum floatleft"> <img src="images/single_featured.png" alt="" />
+                                    <h3>Lorem ipsum dolor sit amet, consectetur</h3>
+                                    <p>Nulla quis lorem neque, mattis venenatis lectus. In interdum ullamcorper dolor eu mattis.</p>
+                                    <a class="readmore" href="#">read more</a>
+                                </div>
+                            </div>
+                            <div class="single_left_coloum_wrapper">
+                                <h2 class="title">latest articles</h2>
+                                <a class="more" href="#">more</a>
+                                <div class="single_left_coloum floatleft"> <img src="images/single_featured.png" alt="" />
+                                    <h3>Lorem ipsum dolor sit amet, consectetur</h3>
+                                    <p>Nulla quis lorem neque, mattis venenatis lectus. In interdum ullamcorper dolor eu mattis.</p>
+                                    <a class="readmore" href="#">read more</a>
+                                </div>
+                                <div class="single_left_coloum floatleft"> <img src="images/single_featured.png" alt="" />
+                                    <h3>Lorem ipsum dolor sit amet, consectetur</h3>
+                                    <p>Nulla quis lorem neque, mattis venenatis lectus. In interdum ullamcorper dolor eu mattis.</p>
+                                    <a class="readmore" href="#">read more</a>
+                                </div>
+                                <div class="single_left_coloum floatleft"> <img src="images/single_featured.png" alt="" />
+                                    <h3>Lorem ipsum dolor sit amet, consectetur</h3>
+                                    <p>Nulla quis lorem neque, mattis venenatis lectus. In interdum ullamcorper dolor eu mattis.</p>
+                                    <a class="readmore" href="#">read more</a>
+                                </div>
+                            </div>
+                            <div class="single_left_coloum_wrapper gallery">
+                                <h2 class="title">gallery</h2>
+                                <a class="more" href="#">more</a> <img src="images/single_featured.png" alt="" /> <img src="images/single_featured.png" alt="" /> <img src="images/single_featured.png" alt="" /> <img src="images/single_featured.png" alt="" /> <img src="images/single_featured.png" alt="" /> <img src="images/single_featured.png" alt="" />
+                            </div>
+                            <div class="single_left_coloum_wrapper single_cat_left">
+                                <h2 class="title">tech news</h2>
+                                <a class="more" href="#">more</a>
+                                <div class="single_cat_left_content floatleft">
+                                    <h3>Lorem ipsum dolor sit amet conse ctetur adipiscing elit </h3>
+                                    <p>Nulla quis lorem neque, mattis venenatis lectus. In interdum ullamcorper dolor ...interdum</p>
+                                    <p class="single_cat_left_content_meta">by <span>John Doe</span> | 29 comments</p>
+                                </div>
+                                <div class="single_cat_left_content floatleft">
+                                    <h3>Lorem ipsum dolor sit amet conse ctetur adipiscing elit </h3>
+                                    <p>Nulla quis lorem neque, mattis venenatis lectus. In interdum ullamcorper dolor ...interdum</p>
+                                    <p class="single_cat_left_content_meta">by <span>John Doe</span> | 29 comments</p>
+                                </div>
+                                <div class="single_cat_left_content floatleft">
+                                    <h3>Lorem ipsum dolor sit amet conse ctetur adipiscing elit </h3>
+                                    <p>Nulla quis lorem neque, mattis venenatis lectus. In interdum ullamcorper dolor ...interdum</p>
+                                    <p class="single_cat_left_content_meta">by <span>John Doe</span> | 29 comments</p>
+                                </div> 
+                                <div class="single_cat_left_content floatleft">
+                                    <h3>Lorem ipsum dolor sit amet conse ctetur adipiscing elit </h3>
+                                    <p>Nulla quis lorem neque, mattis venenatis lectus. In interdum ullamcorper dolor ...interdum</p>
+                                    <p class="single_cat_left_content_meta">by <span>John Doe</span> | 29 comments</p> 
+                                </div> 
+                            </div> 
+                        </div> 
+                    </div>   -->
+
+                <!--
+                    
+                <div class="right_coloum floatright">
+                    <div class="single_right_coloum">
+                        <h2 class="title"><a href="covid_watch.html">covid watch</a></h2>
+                        <ul>
+                            <li>
+                                <div class="single_cat_right_content">
+                                    <h7>LOCKDOWNS DON'T WORK</h7>
+                                    <h3>SCIENTIFIC STUDY ~ Covid-19 Mortality: A Matter of Vulnerability Among Nations Facing Limited Margins of Adaptation</h3>
+                                    <h4a>Frontiers in Public Health</h4>
+                                    <p>RESULTS: Stringency of the measures settled to fight pandemia, including lockdown, did not appear to be linked with death rate.</p>
+                                    <p class="single_cat_right_content_meta"><a href="https://www.frontiersin.org/articles/10.3389/fpubh.2020.604339/full"><span>read more</span></a> November 2020</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="single_cat_right_content">
+                                    <h7>MASKS DON'T WORK</h7>
+                                    <h3>SCIENTIFIC STUDY ~ Facemasks in the COVID-19 era: A health hypothesis
+                                    </h3>
+                                    <h4a>ScienceDirect: Medical Hypotheses</h4>
+                                    <p>RESULTS: Although, scientific evidence supporting facemasks’ efficacy is lacking, adverse physiological, psychological and health effects are established.</p>
+                                    <p class="single_cat_right_content_meta"><a href="https://www.sciencedirect.com/science/article/pii/S0306987720333028"><span>read more</span></a> January 2021</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="single_cat_right_content">
+                                    <h7>SURFACES DON'T TRANSMIT</h7>
+                                    <h3>SCIENTIFIC STUDY ~ Science Brief: SARS-CoV-2 and Surface (Fomite) Transmission for Indoor Community Environments</h3>
+                                    <h4a>Centers for Disease Control and Prevention (CDC)</h4>
+                                    <p>RESULTS: Findings of these studies suggest that the risk of SARS-CoV-2 infection via the fomite transmission route is low, and generally less than 1 in 10,000, which means that each contact with a contaminated surface has less than a 1 in 10,000 chance of causing an infection.</p>
+                                    <p class="single_cat_right_content_meta"><a href="https://www.cdc.gov/coronavirus/2019-ncov/more/science-and-research/surface-transmission.html"><span>read more</span></a> April 2021</p>
+                                </div>
+                            </li>
+                        </ul>
+                        <a class="popular_more" href="#">more</a>
+                    </div>
+                    <div class="single_right_coloum">
+                        <h2 class="title">editorial</h2>
+                        <div class="single_cat_right_content editorial"> <img src="images/editorial_img.png" alt="" />
+                            <h3>Lorem ipsum dolor sit amet con se cte tur adipiscing elit</h3>
+                        </div>
+                        <div class="single_cat_right_content editorial"> <img src="images/editorial_img.png" alt="" />
+                            <h3>Lorem ipsum dolor sit amet con se cte tur adipiscing elit</h3>
+                        </div>
+                           <div class="single_cat_right_content editorial"> <img src="images/editorial_img.png" alt="" />
+                            <h3>Lorem ipsum dolor sit amet con se cte tur adipiscing elit</h3>
+                        </div>
+                           <div class="single_cat_right_content editorial"> <img src="images/editorial_img.png" alt="" />
+                            <h3>Lorem ipsum dolor sit amet con se cte tur adipiscing elit</h3>
+                        </div>
+                        <div class="single_cat_right_content editorial"> <img src="images/editorial_img.png" alt="" />
+                            <h3>Lorem ipsum dolor sit amet con se cte tur adipiscing elit</h3>
+                        </div>
+                        <div class="single_cat_right_content editorial"> <img src="images/editorial_img.png" alt="" />
+                            <h3>Lorem ipsum dolor sit amet con se cte tur adipiscing elit</h3>
+                        </div>
+                    </div>
+                </div>
+                <!-- IF YOU WANT A NEWSLETTER SIGNUP HOPEFLLY LATER
+MAYBE i CAN JUST PUT A GOOLGE FORM HERE? -->
+                <!--        <div class="sidebar floatright">
+                        <div class="single_sidebar"> <img src="images/add1.png" alt="" /> </div> 
+                        <div class="single_sidebar">
+                            <div class="news-letter">
+                                <h2>Sign Up for Newsletter</h2>
+                                <p>Sign up to receive our free newsletters!</p>
+                                <form action="#" method="post">
+                                    <input type="text" value="Name" id="name" />
+                                    <input type="text" value="Email Address" id="email" />
+                                    <input type="submit" value="SUBMIT" id="form-submit" />
+                                </form>
+                                <p class="news-letter-privacy">We do not spam. We value your privacy!</p>
+                            </div>
+                        </div> -->
+                <!-- IF YOU WANT A POPULAR FEED
+                        <div class="single_sidebar">
+                            <div class="popular">
+                                <h2 class="title">Popular</h2>
+                                <ul>
+                                    <li>
+                                        <div class="single_popular">
+                                            <p>Sept 24th 2045</p>
+                                            <h3>Lorem ipsum dolor sit amet conse ctetur adipiscing elit <a href="#" class="readmore">Read More</a></h3>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="single_popular">
+                                            <p>Sept 24th 2045</p>
+                                            <h3>Lorem ipsum dolor sit amet conse ctetur adipiscing elit <a href="#" class="readmore">Read More</a></h3>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="single_popular">
+                                            <p>Sept 24th 2045</p>
+                                            <h3>Lorem ipsum dolor sit amet conse ctetur adipiscing elit <a href="#" class="readmore">Read More</a></h3>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="single_popular">
+                                            <p>Sept 24th 2045</p>
+                                            <h3>Lorem ipsum dolor sit amet conse ctetur adipiscing elit <a href="#" class="readmore">Read More</a></h3>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="single_popular">
+                                            <p>Sept 24th 2045</p>
+                                            <h3>Lorem ipsum dolor sit amet conse ctetur adipiscing elit <a href="#" class="readmore">Read More</a></h3>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <a class="popular_more">more</a>
+                            </div>
+                        </div> -->
+
+            </div>
+        </div>
+        <div class="content_area">
+            <div class="aligncenter">
+                <div class="logo">
+                    <p3>DONATE HERE</p3>
+                    <p3>Please help me keep this hub of information online. Consider DONATING using any of the methods below:</p3>
+
+                    <button class="btn" data-clipboard-text="bc1qap9tkh9dk8nf04cesahvj623qwqwmk5c4zmqrx" style="display: inline-block">Copy <img src="/images/btc.svg" alt="Bitcoin Logo" /> Wallet Address </button>
+                    <p4>BTC: bc1qap9tkh9dk8nf04cesahvj623qwqwmk5c4zmqrx</p4>
+
+                    <button class="btn" data-clipboard-text="0x5bAe5C4Ee10EB0b9eE3e1105194C346F4CEcAf5" style="display: inline-block">Copy <img src="/images/eth.svg" alt="Bitcoin Logo" /> Wallet Address </button>
+                    <p4>ETH: 0x5bAe5C4Ee10EB0b9eE3e1105194C346F4CEcAf5</p4>
+
+                    <button class="btn" data-clipboard-text="DNBAER7G3kxMg41UPr5emiwDZA1Jg1srvg" style="display: inline-block">Copy <img src="/images/doge.svg" alt="Bitcoin Logo" /> Wallet Address </button>
+                    <p4>DOGE: DNBAER7G3kxMg41UPr5emiwDZA1Jg1srvg</p4>
+
+                    <button class="btn" data-clipboard-text="4Aaj4hi4Vpy36gFQofxLA9LUHsCAZEQJHWLHJNLAqoCsSyZ9gM2fGWjiuh4u5WoRfhET46TsQXPMocVCPm8Cnq6o3YkiUw7" style="display: inline-block">Copy <img src="/images/xmr.svg" alt="Bitcoin Logo" /> Wallet Address </button>
+                    <p4>XMR: 4Aaj4hi4Vpy36gFQofxLA9LUHsCAZEQJHWLHJNLAqoCsSyZ9gM2fGWjiuh4u5WoRfhET46TsQXPMocVCPm8Cnq6o3YkiUw7</p4>
+
+                    <button class="btn" data-clipboard-text="Lgy4mesZ9iYtWpk6A315zXzQzL6uEofPAU" style="display: inline-block">Copy <img src="/images/ltc.svg" alt="Bitcoin Logo" /> Wallet Address </button>
+                    <p4>LTC: Lgy4mesZ9iYtWpk6A315zXzQzL6uEofPAU</p4>
+
+                    <button class="btn" data-clipboard-text="rLtGNisqfGh73cLh3gKQn1dsTyC9VPrKFU" style="display: inline-block">Copy <img src="/images/xrp.svg" alt="Bitcoin Logo" /> Wallet Address </button>
+                    <p4>XRP: rLtGNisqfGh73cLh3gKQn1dsTyC9VPrKFU</p4>
+                    <button class="btn" data-clipboard-text="0x5bAe5C4Ee10EB0b9eE3e1105194C346F4CEcAf5e" style="display: inline-block">Copy <img src="/images/usdt.svg" alt="Bitcoin Logo" /> Wallet Address </button>
+                    <p4>USDT: 0x5bAe5C4Ee10EB0b9eE3e1105194C346F4CEcAf5e</p4>
+
+                    <button class="btn" data-clipboard-text="TErxokaVYhAoHeDQyMrc4Raqe6K7krMt39" style="display: inline-block">Copy <img src="/images/trx.svg" alt="Bitcoin Logo" /> Wallet Address </button>
+                    <p4>TRX: TErxokaVYhAoHeDQyMrc4Raqe6K7krMt39</p4>
+
+                    <button class="btn" data-clipboard-text="AMFdh5EAEC2kHBWDqqMEuvq8MStYS1m3dP" style="display: inline-block">Copy <img src="/images/neo.svg" alt="Bitcoin Logo" /> Wallet Address </button>
+                    <p4>NEO: AMFdh5EAEC2kHBWDqqMEuvq8MStYS1m3dP</p4>
+
+                    <button class="btn" data-clipboard-text="tz1Vw9NNLN1h8HBddXEJw2Fcq7JY6VrRFhtH" style="display: inline-block">Copy <img src="/images/xtz.svg" alt="Bitcoin Logo" /> Wallet Address </button>
+                    <p4>XTZ: tz1Vw9NNLN1h8HBddXEJw2Fcq7JY6VrRFhtH</p4>
+
+                    <button class="btn" data-clipboard-text="NDIILYTKTD3LNJBFIFETRD6X226WJ2BKG5EUTHHH" style="display: inline-block">Copy <img src="/images/xem.svg" alt="Bitcoin Logo" /> Wallet Address </button>
+                    <p4>XEM: NDIILYTKTD3LNJBFIFETRD6X226WJ2BKG5EUTHHH</p4>
+
+                    <button class="btn" data-clipboard-text="cosmos1s7w4c3a8pzcm0dwdsq3sweunwvdz6s6sc6a8jy" style="display: inline-block">Copy <img src="/images/atom.svg" alt="Bitcoin Logo" /> Wallet Address </button>
+                    <p4>ATOM: cosmos1s7w4c3a8pzcm0dwdsq3sweunwvdz6s6sc6a8jy</p4>
+                    <button class="btn" data-clipboard-text="addr1q804eem8lun27vfezlhpvx98gpjqzyqv7udpsjvalcwlqvkltnnk0lex4ucnj9lwzcv2wsryqygqeac6rpyemlsa7qeq28p4jn" style="display: inline-block">Copy <img src="/images/ada.svg" alt="Bitcoin Logo" /> Wallet Address </button>
+                    <p4>ADA: addr1q804eem8lun27vfezlhpvx98gpjqzyqv7udpsjvalcwlqvkltnnk0lex4ucnj9lwzcv2wsryqygqeac6rpyemlsa7qeq28p4jn</p4>
+                </div>
+            </div>
+        </div>
+
+        <!--    <div class="footer_top_area">
+            <div class="inner_footer_top"></div>
+        </div> -->
+        <div class="footer_bottom_area">
+            <div class="footer_menu">
+                <ul id="f_menu">
+                    <li><a href="/world_watch.html">world watch</a></li>
+                    <li><a href="/elite_watch.html">elite watch</a></li>
+                    <li><a href="/tech_watch.html">tech watch</a></li>
+                    <li><a href="/financial_watch.html">financial watch</a></li>
+                    <li><a href="/propaganda_watch.html">propaganda watch</a></li>
+                    <li><a href="/culture_watch.html">culture watch</a></li>
+                    <li><a href="/recommended.html">recommended</a></li>
+                    <li><a href="/covid_watch.html">covid-19 watch</a></li>
+                </ul>
+            </div>
+            <div class="copyright_text">
+                <p5>Copyright &copy; 2021 The Vector. All rights reserved | Design by
+                    <a class="a2" style="font-size: 1em" target="_blank" rel="nofollow" href="http://www.kylebeattie.dx.am">Kyle Beattie</a>
+                </p5>
+                <p5>All data held and linked here is under the Creative Commons license and is FREE to use, link, and distribute under the Creative Commons license</p5>
+            </div>
+        </div>
+    </div>
+    <!--     </div> -->
+
+
+    <!-- 2. Include library -->
+    <script src="/assets/js/clipboard.min.js"></script>
+
+    <!-- THIS IS THE CODE FOR MY COPY CLIPBOARD BUTTONS -->
+
+
+    <!-- 3. Instantiate clipboard by passing a string selector -->
+    <script>
+        var clipboard = new ClipboardJS('.btn');
+
+        clipboard.on('success', function(e) {
+            console.log(e);
+            console.info('Text:', e.text);
+            alert("Copied!");
+
+        });
+
+        clipboard.on('error', function(e) {
+            console.log(e);
+            console.info('Text:', e.text);
+            alert("Try Again");
+        });
+
+    </script>
+
+    <script type="text/javascript" src="/assets/js/jquery-min.js"></script>
+    <script type="text/javascript" src="/assets/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/assets/js/jquery.bxslider.js"></script>
+    <script type="text/javascript" src="/assets/js/selectnav.min.js"></script>
+    <script type="text/javascript">
+        selectnav('nav', {
+            label: '-Navigation-',
+            nested: true,
+            indent: '-'
+        });
+        selectnav('f_menu', {
+            label: '-Navigation-',
+            nested: true,
+            indent: '-'
+        });
+        $('.bxslider').bxSlider({
+            mode: 'fade',
+            captions: true
+        });
+
+    </script>
+    <!--     </div> -->
+</body>
+
+</html>
