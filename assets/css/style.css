@@ -13,19 +13,23 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 body{font-family:'Mate SC', serif; font-size:12px; line-height:13px; background: url("images/site_bg_12.png") top center no-repeat fixed, linear-gradient(135deg, #0C090A 0, #5E5A80 100%); opacity: .93; border-radius: 5px}
 a{color:#fff; text-decoration:none; font-family: 'Mate SC', serif; target="_blank"}
-a:hover, a:active, a:focus{text-decoration:underline; color:limegreen}
-.a2{color:#33a2a8; text-decoration:none; cursor: pointer; font-size: .6em; font-family:'Forum', cursive}
+a:hover, a:active, a:focus{text-decoration:underline; color:limegreen;}
+.a2{color:#33a2a8; text-decoration:none; cursor: pointer; font-size: .6em; font-family:'Forum', cursive;target="_blank"}
 .a2:hover, a2:active, a2:focus{text-decoration:underline; cursor: pointer; color:limegreen}
-.a3{color:limegreen; text-decoration:underline; cursor: pointer; font-size: 1.4em; line-height: 1.4em; font-family:'Crimson Text', serif}
+.a3{color:limegreen; text-decoration:underline; font-size: 1.4em; line-height: 1.4em; font-family:'Crimson Text', serif;target="_blank"}
 .a3:hover, a3:active, a3:focus{text-decoration:underline; cursor: pointer; color:#33a2a8; font-size: 1.5em; line-height: 1.5em}
+.a4{color:deepskyblue; text-decoration:underline; font-size: 1.2em; line-height: 1.2em; font-family:'Crimson Text', serif;target="_blank"}
+.a4:hover, a3:active, a3:focus{text-decoration:underline; cursor: pointer; color:limegreen; font-size: 1.25em; line-height: 1.25em}
 input[type=text], input[type=password], textarea{border:1px solid #ddd; padding:5px}
 input[type=submit]
-h1, h2a, h2b, h4, h5, h6, h7{font-weight:normal; margin:0 0 .5em; word-wrap:break-word}
+h1, h2a, h2b, h4, h4a, h5, h6, h7{font-weight:normal; margin:0 0 .5em; word-wrap:break-word}
 h2a, h2b{font-size:2em; line-height: 1.3em; color: #33a2a8; word-wrap:break-word}
 h2a{display: inline; word-wrap:break-word}
 h2b{display: inline-flex; word-wrap:break-word}
+h2c{font-size: 1.1em; text-decoration: underline}
 h3{color:limegreen; font-size:1.75em; line-height:2em; word-wrap:break-word; font-family: 'Crimson Text', serif; text-align: center}
-h4{color: gray; font-size: 1.25em; word-wrap:break-word; font-family: 'Forum', cursive}
+h4{color: lightsteelblue; font-size: 1.75em; word-wrap:break-word; font-family: 'Forum', cursive}
+h5{color: lightslategray; font-size: 2em; line-height: 1.25em; word-wrap: break-word; font-family: 'Crimson Text', serif; text-align: justify; text-shadow: #fff;word-spacing: .25em; letter-spacing: .1em}
 h7{color: limegreen; font-size: 1.5em; line-height: 1.5em; word-wrap:break-word; font-family: 'Forum', cursive; text-align: center}
 h8{color: red !important; text-transform: uppercase; font-size: 1.5em; line-height: 1.5em; text-align: center; word-wrap:break-word}
 h9{color: #fff; font-size: .86em; word-wrap:break-word; display: block; padding-left: 1em; padding-top: 1em; padding-bottom: .25em}
@@ -33,7 +37,7 @@ p{color: #33a2a8; font-size: 1.1em; line-height: 1.1em; word-wrap:break-word; fo
 p2{color: gainsboro; font-size: 3em; text-transform: uppercase; display: block; text-align: center; margin: 1em; line-height: 2.2em; word-wrap:break-word; text-shadow: 2px 2px #33a2a8}
 p3{color: #fff; font-size: 2em; text-transform: uppercase; display: block; text-align: center; margin: 1em; line-height: 2.2em; word-wrap:break-word; background-color: #33a2a8; border-radius: .25em}
 p4{color: #fff; font-size: 1.75em; display: block; text-align: center; padding: 1em; line-height: 2em; word-wrap:break-word; font-family: 'Crimson Text', serif}
-p5{color: #fff; font-size: 1.25em; display:inline-block; text-align: center; padding: .25em; line-height: 1.25em; word-wrap:break-word; font-family: 'Crimson Text', serif}
+p5{color: #fff; font-size: 1.75em; display:inline-block; text-align: justify; padding: .5em; line-height: 1.3em; word-wrap:break-word; font-family: 'Crimson Text', serif}
 p6{color: #33a2a8; font-size: .76em; word-wrap:break-word; display: block; padding-left: 1em; padding-top: 1em; padding-bottom: .25em}
 button{padding: .5em; margin-left: 1em; background-color: #fff; color: #000; border-style: outset; border-radius: .25em}
 button:hover{cursor: pointer; background-color: limegreen; color: #000}
@@ -41,9 +45,11 @@ button2{padding: .5em; margin-left: 1em; background-color: #000; color: #fff; bo
 button2:hover{cursor: pointer; background-color: limegreen; color: #000}
 #rss1{color: #fff}
 #rss2{display: none !important}
+blockquote{color: limegreen; font-size: 1.8em; align-content: center; word-wrap: break-word;font-family: 'Forum', cursive; line-height: 1.4em; text-align: justify}
 img{max-width:100%; height:auto; border-radius: .5em; padding: .5em} /* for crypto logos */
 .img2{max-width: 50%} /* for images in editorials */
 .img3{max-width:100%; height:auto; border-radius: .5em; padding: .5em} /* for images on the front page */
+.img4{max-width: 40%; padding: .5em; border-radius: .5em; float:left} /* 2nd option for images in editorials */
 .alignleft{float:left; margin-left:0px}
 .aligncenter{display:block; margin:10px auto; overflow:visible}
 .alignright{float:right; margin-left:10px}
@@ -103,7 +109,7 @@ div{overflow:hidden}
 .slider1{width:670px}
 .slider2{width:250px}
 .content_area{margin-top:25px;}
-.main_content{width:670px; height: 2500px; overflow-y: scroll}
+.main_content{width:670px; height: 3500px; overflow-y: scroll}
 .fixed {
         position:fixed;
         width:100%;
