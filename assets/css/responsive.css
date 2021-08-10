@@ -29,14 +29,19 @@ a{color:#fff; text-decoration:none}
 a:hover, a:active, a:focus{text-decoration:underline; color:limegreen; target="_blank"}
 a2{color:#33a2a8; text-decoration:none; cursor: pointer; font-size: .6em}
 a2:hover, a2:active, a2:focus{text-decoration:underline; color:limegreen}
+.a4{color:deepskyblue; text-decoration:underline; font-size: 1em; line-height: 1em; font-family:'Crimson Text', serif;target="_blank"}
+.a4:hover, a3:active, a3:focus{text-decoration:underline; cursor: pointer; color:limegreen; font-size: 1.15em; line-height: 1.15em}    
 .center{width:90%; padding:5%}
 #nav{display:none}
 #f_menu{display:none}
 h2a{font-size: 1.25em; line-height: 1.25em}
 h2b{font-size: 1.25em; line-height: 1.25em}
-h4{font-size: 1em; line-height: 1em}
+h4{color: lightsteelblue; font-size: 1.75em; word-wrap:break-word; font-family: 'Forum', cursive}
+h5{color: lightsteelblue; font-size: 1.5em; line-height: 1.25em; word-wrap: break-word; font-family: 'Crimson Text', serif; text-align: justify; text-shadow: #fff;word-spacing: .1em; letter-spacing: .01em}    
 h7{color: limegreen; text-transform: uppercase; font-size: 1.25em; line-height: 1.25em; text-align: center; align-content: center}
 h9{color: #fff; font-size: .86em; word-wrap:break-word; display: block; padding: .5em}
+p2{color: gainsboro; font-size: 2em; text-transform: uppercase; display: block; text-align: center; margin: 1em; line-height: 1.5em; word-wrap:break-word; text-shadow: 1px 1px #33a2a8}    
+p5{color: #fff; font-size: 1.5em; display:inline-block; text-align: justify; padding: .25em; line-height: 1.25em; word-wrap:break-word; font-family: 'Crimson Text', serif}    
 #rss1{display: none !important}
 #rss2{color: #fff; display: block !important}
 #selectnav1, #selectnav2{background:none repeat scroll 0 0 #000; border:medium none; color:#FFF; display:block; font-family:'Mate SC'; font-size:19px; height:40px; margin:10px auto 0; overflow:hidden; padding-top:11px; text-align:center; width:100%}
@@ -64,6 +69,7 @@ h9{color: #fff; font-size: .86em; word-wrap:break-word; display: block; padding:
     img{max-width: 25%} /* for crypto logos */
     .img2{max-width: 100%} /* for images in editorials */
     .img3{max-width: 100%} /* for images on the front page */
+    .img4{max-width: 100%; padding: .5em; border-radius: .5em; float:none} /* 2nd option for images in editorials */
 }
 
 /*Wide Mobile Layout: 480px.*/
