@@ -34,9 +34,9 @@ a2:hover, a2:active, a2:focus{text-decoration:underline; color:limegreen}
 .center{width:90%; padding:5%}
 #nav{display:none}
 #f_menu{display:none}
-h2a{font-size: 1.25em; line-height: 1.25em}
+h2a{font-size: 1.65em; line-height: 1.65em}
 h2b{font-size: 1.25em; line-height: 1.25em}
-h4{color: lightsteelblue; font-size: 1.75em; word-wrap:break-word; font-family: 'Forum', cursive}
+h4{color: lightsteelblue; font-size: 1.15em; word-wrap:break-word; font-family: 'Forum', cursive}
 h5{color: lightsteelblue; font-size: 1.5em; line-height: 1.25em; word-wrap: break-word; font-family: 'Crimson Text', serif; text-align: justify; text-shadow: #fff;word-spacing: .1em; letter-spacing: .01em}    
 h7{color: limegreen; text-transform: uppercase; font-size: 1.25em; line-height: 1.25em; text-align: center; align-content: center}
 h9{color: #fff; font-size: .86em; word-wrap:break-word; display: block; padding: .5em}
