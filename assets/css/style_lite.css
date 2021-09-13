@@ -14,7 +14,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 body{font-family:'Mate SC', serif; font-size:12px; line-height:13px; background: url("images/site_bg_12.png") top center no-repeat fixed, linear-gradient(135deg, #E4F2EE 0, #F9FCC7 100%); opacity: .93; border-radius: 5px}
 a{color: #000; text-decoration:none;font-family: 'Mate SC', serif; target="_blank"}
 a:hover, a:active, a:focus{text-decoration:underline; color:red}
-.a2{color:#33a2a8; text-decoration:none; cursor: pointer; font-size: .8em; font-family:'Forum', cursive}
+.a2{color:#33a2a8; text-decoration:none; cursor: pointer; font-size: .6em; font-family:'Forum', cursive}
 .a2:hover, a2:active, a2:focus{text-decoration:underline; cursor: pointer; color:red}
 .a3{color:red; text-decoration:underline; cursor: pointer; font-size: 1.4em; line-height: 1.4em;  font-family:'Forum', cursive}
 .a3:hover, a3:active, a3:focus{text-decoration:underline; cursor: pointer; color:#33a2a8; font-size: 1.5em; line-height: 1.5em}
@@ -27,7 +27,7 @@ h2a, h2b{font-size:2em; line-height: 1.3em; color: #33a2a8; word-wrap:break-word
 h2a{display: inline; word-wrap:break-word}
 h2b{display: inline-flex; word-wrap:break-word}
 h3{color:red; font-size:1.75em; line-height:1.5em; word-wrap:break-word; font-family: 'Crimson Text', serif; text-align: center}
-h4{color: lightslategray; font-size: 1.25em; word-wrap:break-word; font-family: 'Forum', cursive}
+h4{color: lightslategray; font-size: 1.75em; word-wrap:break-word; font-family: 'Forum', cursive}
 h5{color: lightslategray; font-size: 2em; line-height: 1.25em; word-wrap: break-word; font-family: 'Crimson Text', serif; text-align: justify; text-shadow: #fff;word-spacing: .25em; letter-spacing: .1em}
 h7{color: red; font-size: 1.5em; line-height: 1.5em; word-wrap:break-word; font-family: 'Forum', cursive; text-align: center}
 h8{color: red !important; text-transform: uppercase; font-size: 1.5em; line-height: 1.5em; text-align: center; word-wrap:break-word}
