@@ -34,7 +34,7 @@ a2:hover, a2:active, a2:focus{text-decoration:underline; color:limegreen}
 .center{width:90%; padding:5%}
 #nav{display:none}
 #f_menu{display:none}
-h2a{font-size: 1.65em; line-height: 1.65em}
+h2a{font-size: 1.65em; line-height: 1.35em}
 h2b{font-size: 1.25em; line-height: 1.25em}
 h4{color: lightslategray; font-size: 1.35em; word-wrap:break-word; font-family: 'Forum', cursive}
 h5{color: lightslategray; font-size: 1.5em; line-height: 1.25em; word-wrap: break-word; font-family: 'Crimson Text', serif; text-align: justify; text-shadow: #fff;word-spacing: .1em; letter-spacing: .01em}   
