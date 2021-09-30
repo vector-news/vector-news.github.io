@@ -42,7 +42,7 @@ button{padding: .5em; margin-left: 1em; background-color: #fff; color: #000; bor
 button:hover{cursor: pointer; background-color: limegreen; color: #000}
 button2{padding: .5em; margin-left: 1em; background-color: #000; color: #fff; border-style: outset; border-radius:.25em}
 button2:hover{cursor: pointer; background-color: limegreen; color: #000}
-button3{padding: .5em; margin-right: 1em; background-color: #33a2a8; color: #fff; border-style: outset; border-radius: .25em}
+button3{padding: .5em; margin-left: 1em; background-color: #33a2a8; color: #fff; border-style: outset; border-radius: .25em}
 button3:hover{cursor: pointer; background-color: limegreen; color: #000}
 #rss1{color: #fff}
 #rss2{display: none !important}
