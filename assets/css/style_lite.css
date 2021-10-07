@@ -12,7 +12,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 *{margin:0; padding:0}
 
 body{font-family: Candara,Calibri,Segoe,Segoe UI,Optima,Arial,sans-serif; font-size:12px; line-height:13px; background: url("images/site_bg_12.png") top center no-repeat fixed, linear-gradient(135deg, #E4F2EE 0, #F9FCC7 100%); opacity: .93; border-radius: 5px}
-a{color: #000; text-decoration:none;font-family: 'Mate SC', serif; target="_blank"}
+a{color: #000; text-decoration:none;font-family: Candara,Calibri,Segoe,Segoe UI,Optima,Arial,sans-serif; target="_blank"}
 a:hover, a:active, a:focus{text-decoration:underline; color:red}
 .a2{color:#33a2a8; text-decoration:none; cursor: pointer; font-size: .6em; font-family:'Forum', cursive}
 .a2:hover, a2:active, a2:focus{text-decoration:underline; cursor: pointer; color:red}
