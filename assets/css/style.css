@@ -13,7 +13,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 body{font-family:'Mate SC', serif; font-size:12px; line-height:13px; background: url("images/site_bg_12.png") top center no-repeat fixed, linear-gradient(135deg, #0C090A 0, #5E5A80 100%); opacity: .93; border-radius: 5px}
 a{color:#fff; text-decoration:none; font-family: 'Mate SC', serif; target="_blank"}
-a:hover, a:active, a:focus{text-decoration:underline; color:limegreen; font-size:2.15}
+a:hover, a:active, a:focus{text-decoration:underline; color:limegreen; font-size: 2.15em}
 .a2{color:#33a2a8; text-decoration:none; cursor: pointer; font-size: .6em; font-family:'Forum', cursive;target="_blank"}
 .a2:hover, a2:active, a2:focus{text-decoration:underline; cursor: pointer; color:limegreen}
 .a3{color:limegreen; text-decoration:underline; font-size: 1.4em; line-height: 1.4em; font-family:'Crimson Text', serif;target="_blank"}
