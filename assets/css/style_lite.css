@@ -11,8 +11,8 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 *{margin:0; padding:0}
 
-body{font-family: Candara,Calibri,Segoe,Segoe UI,Optima,Arial,sans-serif; font-size:12px; line-height:13px; background: url("images/site_bg_12.png") top center no-repeat fixed, linear-gradient(135deg, #E4F2EE 0, #F9FCC7 100%); opacity: .93; border-radius: 5px}
-a{color: #000; text-decoration:none;font-family: Candara,Calibri,Segoe,Segoe UI,Optima,Arial,sans-serif; target="_blank"}
+body{font-family:'Mate SC', serif; font-size:12px; line-height:13px; background: url("images/site_bg_12.png") top center no-repeat fixed, linear-gradient(135deg, #E4F2EE 0, #F9FCC7 100%); opacity: .93; border-radius: 5px}
+a{color: #000; text-decoration:none;font-family: 'Mate SC', serif; target="_blank"}
 a:hover, a:active, a:focus{text-decoration:underline; color:red}
 .a2{color:#33a2a8; text-decoration:none; cursor: pointer; font-size: .6em; font-family:'Forum', cursive}
 .a2:hover, a2:active, a2:focus{text-decoration:underline; cursor: pointer; color:red}
@@ -24,7 +24,6 @@ input[type=text], input[type=password], textarea{border:1px solid #ddd; padding:
 input[type=submit]
 h1, h2a, h2b, h4, h5, h6, h7{font-weight:normal; margin:0 0 .5em; word-wrap:break-word; color: black}
 h2a, h2b{font-size:2em; line-height: 1.3em; color: #33a2a8; word-wrap:break-word}
-h2a:hover, h2a:active, h2a:focus{font-size:2.15em}
 h2a{display: inline; word-wrap:break-word}
 h2b{display: inline-flex; word-wrap:break-word}
 h3{color:red; font-size:1.75em; line-height:1.5em; word-wrap:break-word; font-family: 'Crimson Text', serif; text-align: center}
@@ -45,6 +44,11 @@ button2{padding: .5em; margin-left: 1em; background-color: #000; color: #fff; bo
 button2:hover{cursor: pointer; background-color: limegreen; color: #000}
 button3{padding: .5em; margin-left: 1em; background-color: #33a2a8; color: #fff; border-style: outset; border-radius: .25em}
 button3:hover{cursor: pointer; background-color: limegreen; color: #000}
+button4{float: right; padding: .5em; padding-bottom: 2em; margin-right: 1em; background-color: limegreen; color: #000; border-style: outset; border-radius: .25em}
+button4:hover{cursor: pointer; background-color: #33a2a8; color: #fff}
+.grid-container {
+  display: inline-grid;
+}
 #rss1{color: #fff}
 #rss2{display: none !important}
 blockquote{color: red; font-size: 1.8em; align-content: center; word-wrap: break-word;font-family: 'Forum', cursive; line-height: 1.4em; text-align: justify}
@@ -130,6 +134,24 @@ div{overflow:hidden}
 .readmore:hover, .single_cat_right_content_meta span:hover{color:#33a2a8; text-decoration:underline; color:red}
 .gallery{}
 .gallery img{margin-bottom:10px; margin-left:10px; width:141px}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 50%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
 .single_cat_left{}
 .single_cat_left_content{border-bottom:1px dotted #000; margin-left:10px; width:220px}
 .single_cat_left_content h3{font-size:15px}
