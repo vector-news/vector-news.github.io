@@ -11,20 +11,19 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 *{margin:0; padding:0}
 
-body{font-family: Candara,Calibri,Segoe,Segoe UI,Optima,Arial,sans-serif; ; font-size:12px; line-height:13px; background: url("images/site_bg_12.png") top center no-repeat fixed, linear-gradient(135deg, #0C090A 0, #5E5A80 100%); opacity: .93; border-radius: 5px}
-a{color:#fff; text-decoration:none; font-family: Candara,Calibri,Segoe,Segoe UI,Optima,Arial,sans-serif; ; target="_blank"}
-a:hover, a:active, a:focus{text-decoration:underline; color:limegreen}
+body{font-family:'Mate SC', serif; font-size:12px; line-height:13px; background: url("images/site_bg_12.png") top center no-repeat fixed, linear-gradient(135deg, #0C090A 0, #5E5A80 100%); opacity: .93; border-radius: 5px}
+a{color:#fff; text-decoration:none; font-family: 'Mate SC', serif; target="_blank"}
+a:hover, a:active, a:focus{text-decoration:underline; color:limegreen;}
 .a2{color:#33a2a8; text-decoration:none; cursor: pointer; font-size: .6em; font-family:'Forum', cursive;target="_blank"}
 .a2:hover, a2:active, a2:focus{text-decoration:underline; cursor: pointer; color:limegreen}
 .a3{color:limegreen; text-decoration:underline; font-size: 1.4em; line-height: 1.4em; font-family:'Crimson Text', serif;target="_blank"}
 .a3:hover, a3:active, a3:focus{text-decoration:underline; cursor: pointer; color:#33a2a8; font-size: 1.5em; line-height: 1.5em}
 .a4{color:deepskyblue; text-decoration:underline; font-size: 1.2em; line-height: 1.2em; font-family:'Crimson Text', serif;target="_blank"}
-.a4:hover, a3:active, a3:focus{text-decoration:underline; cursor: pointer; color:limegreen; font-size: 1.25em; line-height: 1.25em}
+.a4:hover, a4:active, a4:focus{text-decoration:underline; cursor: pointer; color:limegreen; font-size: 1.25em; line-height: 1.25em}
 input[type=text], input[type=password], textarea{border:1px solid #ddd; padding:5px}
 input[type=submit]
 h1, h2a, h2b, h4, h4a, h5, h6, h7{font-weight:normal; margin:0 0 .5em; word-wrap:break-word}
 h2a, h2b{font-size:2em; line-height: 1.3em; color: #33a2a8; word-wrap:break-word}
-h2a:hover, h2a:active, h2a:focus{font-size:2.15em}
 h2a{display: inline; word-wrap:break-word}
 h2b{display: inline-flex; word-wrap:break-word}
 h2c{font-size: 1.1em; text-decoration: underline}
@@ -44,10 +43,15 @@ button{padding: .5em; margin-left: 1em; background-color: #fff; color: #000; bor
 button:hover{cursor: pointer; background-color: limegreen; color: #000}
 button2{padding: .5em; margin-left: 1em; background-color: #000; color: #fff; border-style: outset; border-radius: .25em}
 button2:hover{cursor: pointer; background-color: limegreen; color: #000}
-button3{padding: .5em; margin-left: 1em; background-color: #33a2a8; color: #fff; border-style: outset; border-radius: .25em}
+button3{padding: .5em; margin-right: 1em; background-color: #33a2a8; color: #fff; border-style: outset; border-radius: .25em}
 button3:hover{cursor: pointer; background-color: limegreen; color: #000}
+button4{padding: .5em; margin-right: 1em; background-color: aqua; color: #000; border-style: outset; border-radius: .25em}
+button4:hover{cursor: pointer; background-color: #33a2a8; color: #fff}
 #rss1{color: #fff}
 #rss2{display: none !important}
+.grid-container {
+  display: inline-grid;
+}
 blockquote{color: limegreen; font-size: 1.8em; align-content: center; word-wrap: break-word;font-family: 'Forum', cursive; line-height: 1.4em; text-align: justify}
 img{max-width:100%; height:auto; border-radius: .5em; padding: .5em} /* for crypto logos */
 .img2{max-width: 50%} /* for images in editorials */
@@ -131,6 +135,24 @@ div{overflow:hidden}
 .readmore:hover, .single_cat_right_content_meta span:hover{color:#33a2a8; text-decoration:underline; color:limegreen}
 .gallery{}
 .gallery img{margin-bottom:10px; margin-left:10px; width:141px}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 50%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
 .single_cat_left{}
 .single_cat_left_content{border-bottom:1px dotted #000; margin-left:10px; width:220px}
 .single_cat_left_content h3{font-size:15px}
